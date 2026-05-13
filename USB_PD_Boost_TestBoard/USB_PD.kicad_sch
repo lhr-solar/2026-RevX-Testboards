@@ -41316,7 +41316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0323ad2a-af3d-4b57-8a3a-d129846333df")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -41366,7 +41366,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -41387,7 +41387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bbb73f1-939f-44b8-9ce8-2f2bd4a98964")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -41437,7 +41437,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -41728,7 +41728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2166b887-916c-4da8-865c-89b8acc8c7aa")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 266.7 154.94 0)
 			(effects
 				(font
@@ -41778,7 +41778,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -41793,7 +41793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242d4c32-f3d3-44a8-a931-f1ae31b1f625")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -41843,7 +41843,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -41864,7 +41864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27256b55-a870-40f9-94a8-01363846fecd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -41914,7 +41914,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -41935,7 +41935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27b3a427-24ff-47a5-9667-af37278001c0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 36.83 64.77 0)
 			(effects
 				(font
@@ -41985,7 +41985,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -42006,7 +42006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d042f73-17a5-4957-abd2-09b146dd52c9")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 266.7 139.7 0)
 			(effects
 				(font
@@ -42056,7 +42056,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -42165,7 +42165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fdb7df6-a965-44eb-bceb-03ced81f3777")
-		(property "Reference" "TP16"
+		(property "Reference" "TP6"
 			(at 190.5 159.258 90)
 			(effects
 				(font
@@ -42215,7 +42215,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP16")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -42366,7 +42366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39d0ed2a-78c7-4e39-a2f7-52c8769d0ff6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -42417,7 +42417,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -42438,7 +42438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "401b9ecd-d193-44cf-ba62-22525e9fb434")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -42488,7 +42488,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -42509,7 +42509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40fcb7bd-673b-42ce-9a71-d7bd784484f9")
-		(property "Reference" "TP20"
+		(property "Reference" "TP8"
 			(at 215.9 141.478 90)
 			(effects
 				(font
@@ -42559,7 +42559,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP20")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -42574,7 +42574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4275507d-bdaf-4408-a5bc-03497d2eb3f9")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 49.53 146.0499 0)
 			(effects
 				(font
@@ -42646,7 +42646,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -42668,7 +42668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ea17e2-8213-483b-b424-2226cfd1576c")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 39.37 76.1999 0)
 			(effects
 				(font
@@ -42749,7 +42749,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -42770,7 +42770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "445db25e-3691-454f-b775-7dc00981e2e1")
-		(property "Reference" "TP24"
+		(property "Reference" "TP11"
 			(at 236.22 133.8581 0)
 			(effects
 				(font
@@ -42822,7 +42822,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP24")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -42837,7 +42837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "451c998f-2e66-472d-8876-77d66a9df858")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -42887,7 +42887,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -42908,7 +42908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac4f510-87a1-4e29-b720-534e50a5ed92")
-		(property "Reference" "TP22"
+		(property "Reference" "TP13"
 			(at 236.22 151.6381 0)
 			(effects
 				(font
@@ -42960,7 +42960,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP22")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -42975,7 +42975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b414cf5-85bd-4e06-9f55-a1cc0e366191")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 172.72 54.61 0)
 			(effects
 				(font
@@ -43025,7 +43025,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -43046,7 +43046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f2143b0-e997-4e1e-a7cb-8788629b3f46")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 69.85 114.3 0)
 			(effects
 				(font
@@ -43096,7 +43096,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -43118,7 +43118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550f5cff-0eeb-438c-bb70-8730f1dfbcc2")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 41.91 184.15 90)
 			(effects
 				(font
@@ -43188,7 +43188,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -43209,7 +43209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c6d736-9e64-4eae-94ec-8d399f533b47")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -43281,7 +43281,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -43303,7 +43303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c93814d-afe8-486e-b460-ed1f3f5b21bc")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 172.72 62.23 0)
 			(effects
 				(font
@@ -43375,7 +43375,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -43396,7 +43396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d622cb0-97d8-4db1-86de-3047f251af36")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 184.15 68.58 0)
 			(effects
 				(font
@@ -43468,7 +43468,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -43489,7 +43489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6159ff1f-2e67-4c75-abdf-149762256873")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -43539,7 +43539,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -43931,7 +43931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6fb5bf-a9c5-4e5c-b35e-f61c80e17415")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 69.85 50.8 0)
 			(effects
 				(font
@@ -43981,7 +43981,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -44002,7 +44002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71720c98-05f2-4a26-b8aa-226bde641258")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -44074,7 +44074,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -44284,7 +44284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857f6186-0589-4139-a132-e387c1ec91e1")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 76.2 53.34 90)
 			(effects
 				(font
@@ -44354,7 +44354,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -44375,7 +44375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "890eec5d-c816-40e2-9b41-f4e7f99aaaf8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 26.67 88.9 0)
 			(effects
 				(font
@@ -44425,7 +44425,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -44446,7 +44446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "891afdc8-9762-44f2-95bf-31c98c6fd251")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -44496,7 +44496,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -44517,7 +44517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fdd22bc-349a-407f-907b-ecbf61621ceb")
-		(property "Reference" "TP17"
+		(property "Reference" "TP7"
 			(at 215.9 132.588 90)
 			(effects
 				(font
@@ -44567,7 +44567,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP17")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -44582,7 +44582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f0abe6-7ef7-49f8-bd36-8ac9dfc1ba48")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 69.85 92.71 0)
 			(effects
 				(font
@@ -44632,7 +44632,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -44818,7 +44818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97c95144-dcc0-4549-a0b2-36de028d4345")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 236.22 142.7481 0)
 			(effects
 				(font
@@ -44870,7 +44870,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -44977,7 +44977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a53eccef-829f-438b-8c46-5019bc77d7ed")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 132.08 59.69 0)
 			(effects
 				(font
@@ -45027,7 +45027,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -45142,7 +45142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a78cec01-539a-4b99-91f9-ddfaba052920")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -45192,7 +45192,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -45214,7 +45214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac70321a-e39f-4d0e-bf41-1f1d04b1558c")
-		(property "Reference" "TP23"
+		(property "Reference" "TP14"
 			(at 269.24 139.1919 0)
 			(effects
 				(font
@@ -45266,7 +45266,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP23")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -45282,7 +45282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af221dfe-7731-405f-90b6-402bc8c1c4b6")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -45354,7 +45354,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -45376,7 +45376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00de089-416c-43e9-b307-1a7e13aed87f")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 41.91 151.13 90)
 			(effects
 				(font
@@ -45446,7 +45446,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -45467,7 +45467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b02a916a-a69a-483c-b3cb-d392b069a4c6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 82.55 72.39 0)
 			(effects
 				(font
@@ -45517,7 +45517,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -45813,7 +45813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f7fddf-5094-4649-a254-ca7d7b7924a1")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 29.21 76.1999 0)
 			(effects
 				(font
@@ -45894,7 +45894,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -45915,7 +45915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba7ec0b-0a68-4f76-92f8-a234734ece9a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -45965,7 +45965,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -45986,7 +45986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be4a1f3d-51e9-421c-88b6-da612ebed2ff")
-		(property "Reference" "TP15"
+		(property "Reference" "TP5"
 			(at 190.5 150.368 90)
 			(effects
 				(font
@@ -46036,7 +46036,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP15")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -46051,7 +46051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be99db1d-f574-46bb-8803-0073b361bdba")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 25.4 142.24 0)
 			(effects
 				(font
@@ -46101,7 +46101,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -46123,7 +46123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23fbb2c-3176-479f-9dc7-612ff60e25c3")
-		(property "Reference" "TP18"
+		(property "Reference" "TP15"
 			(at 269.24 154.4319 0)
 			(effects
 				(font
@@ -46175,7 +46175,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP18")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -46191,7 +46191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ee23ba-9a17-4b51-9402-6939d9d03e04")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 49.53 179.0699 0)
 			(effects
 				(font
@@ -46263,7 +46263,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -46284,7 +46284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c88b501a-9fb6-49c0-8808-ab27da14efdc")
-		(property "Reference" "TP19"
+		(property "Reference" "TP9"
 			(at 215.9 150.368 90)
 			(effects
 				(font
@@ -46334,7 +46334,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP19")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -46349,7 +46349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3769a05-e3fd-499d-82f2-23f9e8f03fc2")
-		(property "Reference" "TP14"
+		(property "Reference" "TP4"
 			(at 190.5 141.478 90)
 			(effects
 				(font
@@ -46399,7 +46399,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP14")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -46508,7 +46508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e06ad374-6fd9-4527-bceb-0997428bfed2")
-		(property "Reference" "TP13"
+		(property "Reference" "TP3"
 			(at 190.5 132.588 90)
 			(effects
 				(font
@@ -46558,7 +46558,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP13")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -46574,7 +46574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ce470f-0317-462b-904d-b95875b962cd")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 83.82 146.0499 0)
 			(effects
 				(font
@@ -46646,7 +46646,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -46998,7 +46998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f142fae0-070c-4b3f-a22f-1d062589d87e")
-		(property "Reference" "TP21"
+		(property "Reference" "TP10"
 			(at 215.9 159.258 90)
 			(effects
 				(font
@@ -47048,7 +47048,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "TP21")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -47063,7 +47063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d88dd6-751c-4e52-a178-0368d07cb565")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -47113,7 +47113,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -47365,7 +47365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe425990-1ef1-4565-a987-b4304ee2f97a")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 76.2 85.09 90)
 			(effects
 				(font
@@ -47435,7 +47435,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
