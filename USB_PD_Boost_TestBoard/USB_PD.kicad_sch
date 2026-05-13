@@ -5,6 +5,113 @@
 	(uuid "f5eb7f8f-b132-4f9a-b322-f4fca6115cc9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -35675,6 +35782,18 @@
 		(uuid 6ff01b4b-84bd-4ad4-9d49-e6ec79aeba44)
 	)
 	(rectangle
+		(start 177.8 127)
+		(end 279.4 164.846)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 918cb2b0-c3e4-476b-b4b3-89eb11f5501e)
+	)
+	(rectangle
 		(start 62.23 29.21)
 		(end 223.52 119.38)
 		(stroke
@@ -35877,6 +35996,19 @@
 			(justify left top)
 		)
 		(uuid "39486ac3-0d1f-4a8d-83f3-d269df80fe58")
+	)
+	(text "Testpoints"
+		(exclude_from_sim no)
+		(at 177.8 123.952 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "3953b8f5-19af-4f0b-9f12-32ee3067e352")
 	)
 	(text "5V Power (if we fail to negotiate)"
 		(exclude_from_sim no)
@@ -36270,6 +36402,12 @@
 		(uuid "15f0b249-caf7-4715-8fa2-6ed6a2559ddf")
 	)
 	(junction
+		(at 78.74 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d6b1dde-4d2a-4eba-b148-28a5f4c66500")
+	)
+	(junction
 		(at 46.99 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -36280,6 +36418,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3351a861-5f14-47c7-9c1e-f9ff65ef4abc")
+	)
+	(junction
+		(at 80.01 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "347eb416-2287-4443-a1c0-c000f1b49f67")
 	)
 	(junction
 		(at 36.83 58.42)
@@ -36517,7 +36661,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 189.23) (xy 91.44 189.23)
+			(xy 72.39 189.23) (xy 78.74 189.23)
 		)
 		(stroke
 			(width 0)
@@ -36587,6 +36731,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 151.13) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1a3e7a-a14b-450c-a917-d5c40d950f9f")
+	)
+	(wire
+		(pts
 			(xy 110.49 146.05) (xy 110.49 156.21)
 		)
 		(stroke
@@ -36594,6 +36748,16 @@
 			(type default)
 		)
 		(uuid "1d1f1c85-e007-419b-8cbc-210bd9e139e0")
+	)
+	(wire
+		(pts
+			(xy 185.42 153.67) (xy 199.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d72d590-79b4-4424-8c58-122d504786c6")
 	)
 	(wire
 		(pts
@@ -36627,6 +36791,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 162.56) (xy 199.39 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f5fff1-dbc9-40e2-8bda-b4d8fafd223a")
+	)
+	(wire
+		(pts
 			(xy 69.85 58.42) (xy 73.66 58.42)
 		)
 		(stroke
@@ -36644,6 +36818,16 @@
 			(type default)
 		)
 		(uuid "2272f218-5e97-4749-a0f8-a3e0aa663724")
+	)
+	(wire
+		(pts
+			(xy 80.01 156.21) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b2f35e-be9a-4f84-9e6c-ac7e123e24f2")
 	)
 	(wire
 		(pts
@@ -37027,6 +37211,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 135.89) (xy 199.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffe01c5-6621-4b5b-91d3-9c25eaec6fff")
+	)
+	(wire
+		(pts
+			(xy 238.76 144.78) (xy 243.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7214c2d0-0d31-45c9-b023-b0bd1100d39e")
+	)
+	(wire
+		(pts
 			(xy 95.25 138.43) (xy 105.41 138.43)
 		)
 		(stroke
@@ -37097,6 +37301,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 135.89) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd24bf3-a143-4838-a342-1cbd1f0e3a5d")
+	)
+	(wire
+		(pts
 			(xy 161.29 53.34) (xy 158.75 53.34)
 		)
 		(stroke
@@ -37114,6 +37328,26 @@
 			(type default)
 		)
 		(uuid "7f9f4f91-5c4c-4b82-8038-c8bf0df96824")
+	)
+	(wire
+		(pts
+			(xy 238.76 153.67) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872065d8-21b8-49ad-bb85-c5b3608675ed")
+	)
+	(wire
+		(pts
+			(xy 185.42 144.78) (xy 199.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880bf5eb-58c9-4aee-b633-3dad50fb5f1c")
 	)
 	(wire
 		(pts
@@ -37197,6 +37431,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 189.23) (xy 78.74 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f59d2a1-f585-4730-8cb4-a5226355c3bd")
+	)
+	(wire
+		(pts
 			(xy 86.36 156.21) (xy 95.25 156.21)
 		)
 		(stroke
@@ -37244,6 +37488,16 @@
 			(type default)
 		)
 		(uuid "950c3428-5325-4966-b7d2-9de67bd06f4e")
+	)
+	(wire
+		(pts
+			(xy 78.74 189.23) (xy 91.44 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9626873e-502f-4f47-a9c0-7406bb46fe18")
 	)
 	(wire
 		(pts
@@ -37327,6 +37581,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 156.21) (xy 86.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a005bc-3dc2-4d2d-b170-85cd4732d963")
+	)
+	(wire
+		(pts
 			(xy 25.4 189.23) (xy 39.37 189.23)
 		)
 		(stroke
@@ -37404,6 +37668,16 @@
 			(type default)
 		)
 		(uuid "b48a9208-7ec4-4049-bf76-d931c23bf810")
+	)
+	(wire
+		(pts
+			(xy 238.76 135.89) (xy 252.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51776e8-96d0-4a80-bc89-04634ef19603")
 	)
 	(wire
 		(pts
@@ -37504,6 +37778,16 @@
 			(type default)
 		)
 		(uuid "d40c5c3e-fbdf-4285-8c14-fb32f2d5fbc9")
+	)
+	(wire
+		(pts
+			(xy 210.82 162.56) (xy 227.33 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b0dde1-69a2-4ad2-b482-57cf64adfc9f")
 	)
 	(wire
 		(pts
@@ -37667,7 +37951,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 156.21) (xy 86.36 156.21)
+			(xy 72.39 156.21) (xy 80.01 156.21)
 		)
 		(stroke
 			(width 0)
@@ -37717,6 +38001,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 153.67) (xy 227.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9288da5-a6dd-412f-a46f-aa305d79a8c9")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9524b35-bd3b-4008-bd00-18b86989340c")
+	)
+	(wire
+		(pts
 			(xy 46.99 138.43) (xy 55.88 138.43)
 		)
 		(stroke
@@ -37734,6 +38038,16 @@
 			(type default)
 		)
 		(uuid "fdbd58f7-a356-44be-bfe3-6e5dbedc0ea8")
+	)
+	(wire
+		(pts
+			(xy 266.7 135.89) (xy 266.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3b5160-2b42-4a32-bfff-d0278cd42e44")
 	)
 	(image
 		(at 340.868 84.582)
@@ -40577,6 +40891,26 @@
 		)
 		(uuid "0e5195c8-4f30-4fa2-801c-bff0029d1492")
 	)
+	(label "SAFE_PWR_GATE"
+		(at 227.33 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "191b1da0-0bc1-4373-a757-1b29ace2f7b8")
+	)
+	(label "ISINK_FINE"
+		(at 199.39 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2474b991-bb77-498e-9e07-e81d1f104416")
+	)
 	(label "VBUS_MIN"
 		(at 95.25 58.42 180)
 		(effects
@@ -40597,6 +40931,16 @@
 		)
 		(uuid "325831bd-74a7-495c-9216-027cae1dea37")
 	)
+	(label "SAFE_PWR_GATE"
+		(at 78.74 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44ddfd49-2c89-4cef-9aa5-cf73a5a8ce68")
+	)
 	(label "VBUS_MAX"
 		(at 118.11 68.58 0)
 		(effects
@@ -40606,6 +40950,26 @@
 			(justify left bottom)
 		)
 		(uuid "4b45c454-734a-48d8-9a10-5ba8bc0a142b")
+	)
+	(label "VBUS_MAX"
+		(at 199.39 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e350ab4-2b38-4a19-a1f0-05070afd6093")
+	)
+	(label "ISINK_COARSE"
+		(at 199.39 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7196f728-3305-4c33-ba1b-4121280ac33d")
 	)
 	(label "VBUS_MIN"
 		(at 118.11 71.12 0)
@@ -40667,6 +41031,36 @@
 		)
 		(uuid "81a76fbb-ee76-469d-acb5-eee80a1725b5")
 	)
+	(label "VBUS_FET_GATE"
+		(at 227.33 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87e47da6-dbbf-4a51-8a04-1646ac620281")
+	)
+	(label "SAFE_PWR_EN"
+		(at 227.33 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "883a7414-6c2d-40a1-8dbf-422424d53640")
+	)
+	(label "PD_FAULT"
+		(at 252.73 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca4059b4-0248-4cc4-82ec-8914313e8392")
+	)
 	(label "VBUS_FET_EN"
 		(at 186.69 83.82 180)
 		(effects
@@ -40677,6 +41071,16 @@
 		)
 		(uuid "cb309229-2b24-4a18-8eb0-143fff9fc4b4")
 	)
+	(label "VBUS_MIN"
+		(at 199.39 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cddd041f-f7da-4b63-b8e5-2621bf824cd0")
+	)
 	(label "VBUS_FET_EN"
 		(at 25.4 156.21 0)
 		(effects
@@ -40686,6 +41090,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5083ed7-d967-4ec8-b8fa-3d8926948ab2")
+	)
+	(label "VBUS_FET_EN"
+		(at 227.33 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da253fed-fd1f-481c-a98c-2711e44a67ba")
 	)
 	(label "SAFE_PWR_EN"
 		(at 186.69 86.36 180)
@@ -40706,6 +41120,16 @@
 			(justify right bottom)
 		)
 		(uuid "ed4fd0c4-7334-4765-a8ab-7ce622f343cc")
+	)
+	(label "VBUS_FET_GATE"
+		(at 80.01 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb776189-bc3e-4949-99f5-8f7884b75a6d")
 	)
 	(hierarchical_label "PD_5V_OUT"
 		(shape output)
@@ -40751,6 +41175,17 @@
 		)
 		(uuid "61f73b60-718b-44d4-886d-b93db7e909c9")
 	)
+	(hierarchical_label "PD_VBUS_OUT"
+		(shape output)
+		(at 243.84 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ce6a36e-b293-47a5-8e89-dbd41ffa00b6")
+	)
 	(hierarchical_label "PD_GPIO_1"
 		(shape bidirectional)
 		(at 175.26 93.98 0)
@@ -40794,6 +41229,17 @@
 			(justify left)
 		)
 		(uuid "b5badcd8-32f5-4298-bbe7-d68c390bf898")
+	)
+	(hierarchical_label "PD_5V_OUT"
+		(shape output)
+		(at 243.84 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcbcba5d-730a-4778-afec-778b851ce51a")
 	)
 	(hierarchical_label "PD_HPI_INT"
 		(shape output)
@@ -40870,7 +41316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0323ad2a-af3d-4b57-8a3a-d129846333df")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 173.99 63.5 0)
 			(effects
 				(font
@@ -40920,7 +41366,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -40941,7 +41387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bbb73f1-939f-44b8-9ce8-2f2bd4a98964")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -40991,7 +41437,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -41275,6 +41721,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 266.7 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2166b887-916c-4da8-865c-89b8acc8c7aa")
+		(property "Reference" "#PWR030"
+			(at 266.7 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PD_3V3"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 266.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66fc6bdc-3c3e-4b6c-9651-565f78677fef")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 182.88 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41282,7 +41793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242d4c32-f3d3-44a8-a931-f1ae31b1f625")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -41332,7 +41843,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -41353,7 +41864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27256b55-a870-40f9-94a8-01363846fecd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -41403,7 +41914,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -41424,7 +41935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27b3a427-24ff-47a5-9667-af37278001c0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 36.83 64.77 0)
 			(effects
 				(font
@@ -41474,13 +41985,78 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 266.7 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d042f73-17a5-4957-abd2-09b146dd52c9")
+		(property "Reference" "#PWR032"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_IN"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "225eef9c-fee3-4d9a-bdcf-7cfccd231fbc")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -41581,6 +42157,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fdb7df6-a965-44eb-bceb-03ced81f3777")
+		(property "Reference" "TP16"
+			(at 190.5 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ISINK_FINE"
+			(at 185.42 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f926691-9080-4c50-a3cd-58e8d716960e")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "USB_PD_Symbols:SMBJ10A-E3_52")
 		(at 95.25 139.7 270)
 		(unit 1)
@@ -41589,7 +42230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3125a634-64e8-4fe7-becb-3ba8f003560d")
-		(property "Reference" "D2"
+		(property "Reference" "D6"
 			(at 99.06 145.5419 90)
 			(effects
 				(font
@@ -41704,7 +42345,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "D2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -41725,7 +42366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39d0ed2a-78c7-4e39-a2f7-52c8769d0ff6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -41776,7 +42417,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -41797,7 +42438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "401b9ecd-d193-44cf-ba62-22525e9fb434")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -41847,13 +42488,78 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "40fcb7bd-673b-42ce-9a71-d7bd784484f9")
+		(property "Reference" "TP20"
+			(at 215.9 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_FET_GATE"
+			(at 210.82 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81ac2934-cb60-4c47-abad-3eb6201f078c")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -41868,7 +42574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4275507d-bdaf-4408-a5bc-03497d2eb3f9")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 49.53 146.0499 0)
 			(effects
 				(font
@@ -41940,7 +42646,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -41962,7 +42668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42ea17e2-8213-483b-b424-2226cfd1576c")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 39.37 76.1999 0)
 			(effects
 				(font
@@ -42043,13 +42749,80 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "445db25e-3691-454f-b775-7dc00981e2e1")
+		(property "Reference" "TP24"
+			(at 236.22 133.8581 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "PD_FAULT"
+			(at 233.934 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d0c68ed-42c9-4f46-8df5-599b541a10eb")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -42064,7 +42837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "451c998f-2e66-472d-8876-77d66a9df858")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -42114,13 +42887,80 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac4f510-87a1-4e29-b720-534e50a5ed92")
+		(property "Reference" "TP22"
+			(at 236.22 151.6381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "PD_5V_OUT"
+			(at 233.426 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0f7a21-d945-4629-9830-be2d4e7aab2d")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -42135,7 +42975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b414cf5-85bd-4e06-9f55-a1cc0e366191")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 172.72 54.61 0)
 			(effects
 				(font
@@ -42185,7 +43025,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -42206,7 +43046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f2143b0-e997-4e1e-a7cb-8788629b3f46")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 69.85 114.3 0)
 			(effects
 				(font
@@ -42256,7 +43096,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -42278,7 +43118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550f5cff-0eeb-438c-bb70-8730f1dfbcc2")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 41.91 184.15 90)
 			(effects
 				(font
@@ -42348,7 +43188,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -42369,7 +43209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c6d736-9e64-4eae-94ec-8d399f533b47")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -42441,7 +43281,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -42556,7 +43396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d622cb0-97d8-4db1-86de-3047f251af36")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 184.15 68.58 0)
 			(effects
 				(font
@@ -42628,7 +43468,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -42649,7 +43489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6159ff1f-2e67-4c75-abdf-149762256873")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -42699,7 +43539,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -43091,7 +43931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d6fb5bf-a9c5-4e5c-b35e-f61c80e17415")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 69.85 50.8 0)
 			(effects
 				(font
@@ -43141,7 +43981,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -43162,7 +44002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71720c98-05f2-4a26-b8aa-226bde641258")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -43234,7 +44074,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -43444,7 +44284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857f6186-0589-4139-a132-e387c1ec91e1")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 76.2 53.34 90)
 			(effects
 				(font
@@ -43514,7 +44354,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -43535,7 +44375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "890eec5d-c816-40e2-9b41-f4e7f99aaaf8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 26.67 88.9 0)
 			(effects
 				(font
@@ -43585,7 +44425,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -43606,7 +44446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "891afdc8-9762-44f2-95bf-31c98c6fd251")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -43656,13 +44496,78 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fdd22bc-349a-407f-907b-ecbf61621ceb")
+		(property "Reference" "TP17"
+			(at 215.9 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_FET_EN"
+			(at 210.82 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa3ed06c-0590-4034-9719-d1b7ce709c6f")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -43677,7 +44582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95f0abe6-7ef7-49f8-bd36-8ac9dfc1ba48")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 69.85 92.71 0)
 			(effects
 				(font
@@ -43727,7 +44632,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -43905,6 +44810,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "97c95144-dcc0-4549-a0b2-36de028d4345")
+		(property "Reference" "TP11"
+			(at 236.22 142.7481 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "PD_VBUS_OUT"
+			(at 232.41 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 243.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ecaa81a-2851-4f26-8f99-83821ecf1e7c")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 52.07 90)
 		(unit 1)
@@ -44005,7 +44977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a53eccef-829f-438b-8c46-5019bc77d7ed")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 132.08 59.69 0)
 			(effects
 				(font
@@ -44055,7 +45027,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -44170,7 +45142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a78cec01-539a-4b99-91f9-ddfaba052920")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -44220,13 +45192,81 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac70321a-e39f-4d0e-bf41-1f1d04b1558c")
+		(property "Reference" "TP23"
+			(at 269.24 139.1919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_IN"
+			(at 269.24 140.4619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42dde809-ec52-4e9c-b938-a636091720d2")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -44242,7 +45282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af221dfe-7731-405f-90b6-402bc8c1c4b6")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -44314,7 +45354,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -44336,7 +45376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00de089-416c-43e9-b307-1a7e13aed87f")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 41.91 151.13 90)
 			(effects
 				(font
@@ -44406,7 +45446,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -44427,7 +45467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b02a916a-a69a-483c-b3cb-d392b069a4c6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 82.55 72.39 0)
 			(effects
 				(font
@@ -44477,7 +45517,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -44498,7 +45538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a7a597-5a64-489b-b77e-b539f252f813")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 95.25 178.5619 90)
 			(effects
 				(font
@@ -44613,7 +45653,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -44635,7 +45675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65a80a1-c4cf-4fb5-9e36-cc3084f4ec91")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 35.56 96.52 0)
 			(effects
 				(font
@@ -44751,7 +45791,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -44773,7 +45813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f7fddf-5094-4649-a254-ca7d7b7924a1")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 29.21 76.1999 0)
 			(effects
 				(font
@@ -44854,7 +45894,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -44875,7 +45915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba7ec0b-0a68-4f76-92f8-a234734ece9a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -44925,13 +45965,78 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be4a1f3d-51e9-421c-88b6-da612ebed2ff")
+		(property "Reference" "TP15"
+			(at 190.5 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ISINK_COARSE"
+			(at 185.42 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b692c98e-7e5e-486d-9474-63aa3258452a")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -44946,7 +46051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be99db1d-f574-46bb-8803-0073b361bdba")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 25.4 142.24 0)
 			(effects
 				(font
@@ -44996,13 +46101,81 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 266.7 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c23fbb2c-3176-479f-9dc7-612ff60e25c3")
+		(property "Reference" "TP18"
+			(at 269.24 154.4319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "PD_3V3"
+			(at 269.24 155.7019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b6de6f-667a-4c1f-b7cf-d731436bad93")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -45018,7 +46191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ee23ba-9a17-4b51-9402-6939d9d03e04")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 49.53 179.0699 0)
 			(effects
 				(font
@@ -45090,13 +46263,143 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 			(project "USB_PD"
 				(path "/f5eb7f8f-b132-4f9a-b322-f4fca6115cc9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c88b501a-9fb6-49c0-8808-ab27da14efdc")
+		(property "Reference" "TP19"
+			(at 215.9 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SAFE_PWR_EN"
+			(at 210.82 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b189df6c-63b2-4265-889d-e08baac055f8")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3769a05-e3fd-499d-82f2-23f9e8f03fc2")
+		(property "Reference" "TP14"
+			(at 190.5 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_MIN"
+			(at 185.42 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d590bb41-6e07-4ef0-ba7d-879b41e3f452")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -45197,6 +46500,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06ad374-6fd9-4527-bceb-0997428bfed2")
+		(property "Reference" "TP13"
+			(at 190.5 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_MAX"
+			(at 185.42 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f9c6c6-be28-44fa-a0f5-e79fbee09c92")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 86.36 147.32 0)
 		(mirror x)
@@ -45206,7 +46574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ce470f-0317-462b-904d-b95875b962cd")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 83.82 146.0499 0)
 			(effects
 				(font
@@ -45278,7 +46646,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -45622,6 +46990,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 210.82 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f142fae0-070c-4b3f-a22f-1d062589d87e")
+		(property "Reference" "TP21"
+			(at 215.9 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SAFE_PWR_GATE"
+			(at 210.82 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 215.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2e5a52-6943-4184-b825-6ec1dbd08baf")
+		)
+		(instances
+			(project "USB_PD_Boost_TestBoard"
+				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 25.4 171.45 0)
 		(unit 1)
@@ -45630,7 +47063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d88dd6-751c-4e52-a178-0368d07cb565")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -45680,7 +47113,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "#PWR02")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -45795,7 +47228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc04bd65-26ec-4737-a9ca-2b0f7ab51049")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 28.956 54.102 90)
 			(effects
 				(font
@@ -45910,7 +47343,7 @@
 		(instances
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -45932,7 +47365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe425990-1ef1-4565-a987-b4304ee2f97a")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 76.2 85.09 90)
 			(effects
 				(font
@@ -46002,7 +47435,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/8e5124ce-1d57-4e27-8739-878572ce189b"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
