@@ -5,5 +5,4 @@
   (lib (name "utsvt_misc")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Sharepoint/utsvt_misc.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_power")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Sharepoint/utsvt_power.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_special")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Sharepoint/utsvt_special.kicad_sym")(options "")(descr ""))
-  (lib (name "USB_PD")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Sharepoint/USB_PD_Symbols.kicad_sym")(options "")(descr ""))
 )
