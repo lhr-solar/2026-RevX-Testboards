@@ -2291,6 +2291,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C7371904"
+			(at 24.13 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "846a0b3c-746e-4490-9e05-30af909de66e")
 		)
@@ -2480,6 +2489,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 113.03 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 113.03 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,6 +2731,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C2907165"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "632e7786-4131-4b1c-8350-c085d9d23f0e")
 		)
@@ -2774,6 +2810,15 @@
 			)
 		)
 		(property "P/N" "575-4 "
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4944061"
 			(at 67.31 125.73 0)
 			(effects
 				(font
@@ -3111,6 +3156,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C21189"
+			(at 39.37 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 39.37 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ff350a2-cc53-4e26-b503-7bdad04334be")
 		)
@@ -3170,6 +3233,24 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C393939"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "USB4105-GF-A"
 			(at 35.56 43.18 0)
 			(effects
 				(font
@@ -3467,6 +3548,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C7371904"
+			(at 41.91 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "818a305e-e6d0-410c-9d36-a1f6b7e2225d")
 		)
@@ -3609,6 +3699,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C4944061"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40c8edf1-33b4-4547-9c47-9b7b2a2d3be2")
 		)
@@ -3740,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "CRCW06034K30FKEA"
+		(property "Mfg" "CRCW06031K00FKEI "
 			(at 24.13 92.71 0)
 			(effects
 				(font
@@ -3749,7 +3848,16 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW06034K30FKEA"
+		(property "P/N" "CRCW06031K00FKEI "
+			(at 24.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 24.13 92.71 0)
 			(effects
 				(font
