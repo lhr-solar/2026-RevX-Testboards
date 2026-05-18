@@ -3968,7 +3968,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "L1")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "L1")
 					(unit 1)
 				)
@@ -4068,7 +4072,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "R2")
 					(unit 1)
 				)
@@ -4168,7 +4176,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "C1")
 					(unit 1)
 				)
@@ -4203,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -4235,7 +4247,11 @@
 		)
 		(instances
 			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "TP6")
 					(unit 1)
 				)
@@ -4334,7 +4350,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "C2")
 					(unit 1)
 				)
@@ -4446,7 +4466,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "U1")
 					(unit 1)
 				)
@@ -4481,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -4513,7 +4537,11 @@
 		)
 		(instances
 			(project ""
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "TP5")
 					(unit 1)
 				)
@@ -4592,7 +4620,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "#FLG01")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -4627,7 +4659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -4659,7 +4691,11 @@
 		)
 		(instances
 			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "TP8")
 					(unit 1)
 				)
@@ -4759,7 +4795,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "C4")
 					(unit 1)
 				)
@@ -4837,7 +4877,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "#FLG02")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -4937,7 +4981,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "R1")
 					(unit 1)
 				)
@@ -5037,7 +5085,11 @@
 				)
 			)
 			(project "5VBuck"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "C3")
 					(unit 1)
 				)
@@ -5072,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(property "Footprint" ""
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -5104,7 +5156,11 @@
 		)
 		(instances
 			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/4ce3c563-64ba-4b6e-b334-e3956b5d5a33"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/c59a1097-f91e-4d56-b57d-869363ca5893"
 					(reference "TP7")
 					(unit 1)
 				)

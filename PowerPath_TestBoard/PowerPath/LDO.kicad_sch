@@ -1930,6 +1930,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "GRM21BR61H106KE43L"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
 		)
@@ -2347,6 +2356,15 @@
 			)
 		)
 		(property "LCSC P/N" "C440198"
+			(at 36.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "GRM21BR61H106KE43L"
 			(at 36.83 52.07 0)
 			(effects
 				(font

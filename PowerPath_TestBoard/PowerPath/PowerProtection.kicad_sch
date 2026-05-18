@@ -6148,6 +6148,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C3840574"
+			(at 29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fa5d063-dcce-40de-bb2d-185cc6f54299")
 		)
@@ -6305,6 +6314,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C4062016"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45b60c06-68a2-4bf4-a79b-ca406242e5bc")
 		)
@@ -6382,6 +6400,15 @@
 			)
 		)
 		(property "P/N" "CRCW06032K10FKEA "
+			(at 21.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C844348"
 			(at 21.59 123.19 0)
 			(effects
 				(font
@@ -6538,6 +6565,15 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43K"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C3840574"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -7173,6 +7209,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C4332876"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fadb710c-f3e9-4be9-b40e-f2e7e195d912")
 		)
@@ -7256,6 +7301,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C1849484"
+			(at 67.31 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7460,6 +7514,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C2076662"
+			(at 21.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e095abf-3785-4999-89c4-4d5c0147d20a")
 		)
@@ -7536,6 +7599,15 @@
 			)
 		)
 		(property "P/N" "CRCW060345K3FKEAHP "
+			(at 21.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C4107995"
 			(at 21.59 102.87 0)
 			(effects
 				(font

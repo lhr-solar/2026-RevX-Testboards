@@ -443,14 +443,20 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey P/N",
+          "name": "Digikey P/N",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -498,16 +504,20 @@
       "Root"
     ],
     [
-      "c59a1097-f91e-4d56-b57d-869363ca5893",
-      "5VBuck"
-    ],
-    [
       "338d1821-4309-4081-b4a8-79e8861ff3c2",
       "PowerProtection"
     ],
     [
       "8ef5b44a-1ea6-4b34-80bc-234862ce4b8d",
       "LDO"
+    ],
+    [
+      "41c72b07-cf60-4ca9-96a7-6ae96aaa0c90",
+      "12VBuck"
+    ],
+    [
+      "ae63f0a9-78b8-4efb-b2ee-a2699a24d705",
+      "5VBuck"
     ]
   ],
   "text_variables": {}
