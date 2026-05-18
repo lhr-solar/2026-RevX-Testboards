@@ -5,4 +5,5 @@
   (lib (name "utsvt_connectors")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_connectors.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_special")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_special.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt_power")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/utsvt_power.kicad_sym")(options "")(descr ""))
+  (lib (name "buckblocks")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Sharepoint/buckblocks.kicad_sym")(options "")(descr ""))
 )
