@@ -359,12 +359,132 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet Embed",
+          "name": "Datasheet Embed",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "If",
+          "name": "If",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC MFG P/N",
+          "name": "LCSC MFG P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N",
+          "name": "LCSC P/N",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfg",
+          "name": "Mfg",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser P/N",
+          "name": "Mouser P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Old LCSC P/N",
+          "name": "Old LCSC P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Old P/N",
+          "name": "Old P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N",
+          "name": "P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS P/N",
+          "name": "LSCS P/N",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -414,10 +534,6 @@
       "Root"
     ],
     [
-      "41a17f95-1432-4d91-bfdc-7c9ac10e9e50",
-      "100PinMCU"
-    ],
-    [
       "cbcec814-e1b6-4f49-9afe-3e964e4b41da",
       "CAN_Transceiver"
     ],
@@ -428,6 +544,18 @@
     [
       "ab199eb4-16ff-472f-a198-e557cdece1a6",
       "LDO"
+    ],
+    [
+      "7ebae12d-faed-4676-bea3-8e8b5526eaae",
+      "CAN_Transceiver1"
+    ],
+    [
+      "81b7a17c-2c6e-4eeb-ba4b-3f9f48e8e5f2",
+      "100PinMCU"
+    ],
+    [
+      "f1685884-e67b-429a-80dc-8b514a98af32",
+      "USB_PD"
     ]
   ],
   "text_variables": {}
