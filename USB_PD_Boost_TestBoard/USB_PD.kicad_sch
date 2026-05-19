@@ -32418,7 +32418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "445db25e-3691-454f-b775-7dc00981e2e1")
-		(property "Reference" "TP18"
+		(property "Reference" "TP20"
 			(at 238.76 104.9019 0)
 			(effects
 				(font
@@ -32470,7 +32470,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP18")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -32491,7 +32491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac4f510-87a1-4e29-b720-534e50a5ed92")
-		(property "Reference" "TP15"
+		(property "Reference" "TP17"
 			(at 135.89 169.4181 0)
 			(effects
 				(font
@@ -32543,7 +32543,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP15")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -33815,7 +33815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97c95144-dcc0-4549-a0b2-36de028d4345")
-		(property "Reference" "TP14"
+		(property "Reference" "TP16"
 			(at 135.89 136.3981 0)
 			(effects
 				(font
@@ -33867,7 +33867,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP14")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -34737,7 +34737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0c0b16b-204b-4fd9-8e83-555d511c0b79")
-		(property "Reference" "TP13"
+		(property "Reference" "TP15"
 			(at 41.91 44.9581 0)
 			(effects
 				(font
@@ -34789,7 +34789,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP13")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -34810,7 +34810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c23fbb2c-3176-479f-9dc7-612ff60e25c3")
-		(property "Reference" "TP17"
+		(property "Reference" "TP19"
 			(at 165.8619 45.72 0)
 			(effects
 				(font
@@ -34862,7 +34862,7 @@
 		(instances
 			(project "USB_PD"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP17")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -35399,7 +35399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c22242-d1ff-4943-9ed0-388e5b4f2334")
-		(property "Reference" "TP16"
+		(property "Reference" "TP18"
 			(at 149.0981 50.8 0)
 			(effects
 				(font
@@ -35451,7 +35451,7 @@
 		(instances
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/cc525944-29a1-46f1-9bbd-0373fa6d1795"
-					(reference "TP16")
+					(reference "TP18")
 					(unit 1)
 				)
 			)

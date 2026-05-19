@@ -49348,7 +49348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20b23865-4729-44f6-8a86-b282605092a0")
-		(property "Reference" "TP20"
+		(property "Reference" "TP22"
 			(at 63.5 62.7379 0)
 			(effects
 				(font
@@ -49415,7 +49415,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP20")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -50297,7 +50297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f9684a-25ec-4228-ada9-9b8b0e49aeb8")
-		(property "Reference" "TP24"
+		(property "Reference" "TP26"
 			(at 158.75 70.3579 0)
 			(effects
 				(font
@@ -50364,7 +50364,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP24")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -50849,7 +50849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "902f0e56-9046-405c-bf1f-d7549a325ba7")
-		(property "Reference" "TP22"
+		(property "Reference" "TP24"
 			(at 118.11 79.5019 0)
 			(effects
 				(font
@@ -50916,7 +50916,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP22")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -50931,7 +50931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9198740b-1732-4ae3-8638-3b7bb2522ed5")
-		(property "Reference" "TP21"
+		(property "Reference" "TP23"
 			(at 69.85 71.8819 0)
 			(effects
 				(font
@@ -50998,7 +50998,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP21")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -51013,7 +51013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c5a21d9-e62d-41f8-9fd8-e11fb32a08f5")
-		(property "Reference" "TP25"
+		(property "Reference" "TP27"
 			(at 223.52 53.8481 0)
 			(effects
 				(font
@@ -51080,7 +51080,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP25")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -51204,7 +51204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5ee6f7d-9d22-4af3-94c2-5fc5b5a4dec4")
-		(property "Reference" "TP19"
+		(property "Reference" "TP21"
 			(at 38.1 51.3079 0)
 			(effects
 				(font
@@ -51271,7 +51271,7 @@
 			)
 			(project ""
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP19")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -51952,7 +51952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed023e48-eff8-4258-b075-f9e2843d464e")
-		(property "Reference" "TP23"
+		(property "Reference" "TP25"
 			(at 119.38 51.3079 0)
 			(effects
 				(font
@@ -52019,7 +52019,7 @@
 			)
 			(project "usb_pd_boost"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c/5b9bbf7e-f78f-403a-a4be-5024a8867fbc"
-					(reference "TP23")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
