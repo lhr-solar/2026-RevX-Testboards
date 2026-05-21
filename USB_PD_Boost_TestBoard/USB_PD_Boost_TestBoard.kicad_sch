@@ -4296,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 80.01 111.76)
+			(xy 73.66 110.49) (xy 73.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4403,16 +4403,6 @@
 			(type default)
 		)
 		(uuid "e50565c0-5a73-4856-9d27-a2a84a8e521c")
-	)
-	(wire
-		(pts
-			(xy 73.66 110.49) (xy 73.66 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e647da3b-1969-4519-bc29-0a10ae110be6")
 	)
 	(wire
 		(pts
@@ -5135,7 +5125,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 80.01 110.49 0)
+		(at 73.66 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5143,7 +5133,7 @@
 		(dnp no)
 		(uuid "0733f89a-7593-4014-b109-134e72148d3f")
 		(property "Reference" "TP6"
-			(at 82.55 105.9179 0)
+			(at 76.2 105.9179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.232 105.156 0)
+			(at 71.882 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5152,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 85.09 110.49 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 110.49 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5170,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 80.01 110.49 0)
+			(at 73.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -5377,73 +5367,6 @@
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 73.66 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e536194-c007-4b81-aed9-91f8076c1207")
-		(property "Reference" "TP4"
-			(at 76.2 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.882 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 78.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 73.66 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfea2e62-521e-42a7-94eb-7d79f6089362")
-		)
-		(instances
-			(project "USB_PD_Boost_TestBoard"
-				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -6060,7 +5983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 41.91 0)
 			(effects
 				(font
@@ -6773,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 50.8 0)
 			(effects
 				(font
@@ -7087,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 111.76 0)
+		(at 73.66 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7096,7 +7019,7 @@
 		(fields_autoplaced yes)
 		(uuid "8200bf10-040b-44d7-a5e0-1bd19f3ce341")
 		(property "Reference" "#PWR09"
-			(at 80.01 118.11 0)
+			(at 73.66 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +7028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 116.84 0)
+			(at 73.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 111.76 0)
+			(at 73.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 111.76 0)
+			(at 73.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 111.76 0)
+			(at 73.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -7428,72 +7351,6 @@
 			(project "USB_PD_Boost_TestBoard"
 				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92fc1cc0-f722-4daa-b7a9-44b88265761f")
-		(property "Reference" "#PWR07"
-			(at 73.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ebc6849-5ca5-426e-84f1-5e4967e68825")
-		)
-		(instances
-			(project "USB_PD_Boost_TestBoard"
-				(path "/b6f029de-c5f9-47ba-bc2f-f9cf5cd6ec8c"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7787,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -8163,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 99.06 44.45 0)
 			(effects
 				(font
