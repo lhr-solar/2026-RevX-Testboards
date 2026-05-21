@@ -5131,7 +5131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "utsvt_special:ESP32-C6-MINI-1"
+		(property "Footprint" "RF_Module:ESP32-C6-MINI-1"
 			(at 158.75 78.74 0)
 			(effects
 				(font
@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "utsvt_esp32:TL3365AF180QG"
+		(property "Footprint" "UTSVT_Esp32:TL3365AF180QG"
 			(at 167.64 27.94 0)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "utsvt_connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "UTSVT_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 35.56 87.63 0)
 			(effects
 				(font
@@ -7217,7 +7217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "utsvt_esp32:450406020024"
+		(property "Footprint" "UTSVT_Esp32:450406020024"
 			(at 118.11 34.29 0)
 			(effects
 				(font
@@ -7401,7 +7401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 210.82 24.13 0)
 			(effects
 				(font

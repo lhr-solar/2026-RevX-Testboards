@@ -10790,7 +10790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LQFP_491VET6_STM:LQFP_491VET6_STM"
+		(property "Footprint" "UTSVT_ICs:LQFP_491VET6_STM"
 			(at 57.785 38.735 0)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 232.41 104.775 0)
 			(effects
 				(font
@@ -13451,7 +13451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "878320406:CONN04_878320406_MOL"
+		(property "Footprint" "UTSVT_Connectors:CONN04_878320406_MOL"
 			(at 156.845 22.225 0)
 			(effects
 				(font
@@ -13830,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "450406020024:450406020024"
+		(property "Footprint" "UTSVT_Esp32:450406020024"
 			(at 280.035 4.14 0)
 			(effects
 				(font
@@ -13928,7 +13928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TL3365AF180QG:TL3365AF180QG"
+		(property "Footprint" "UTSVT_Esp32:TL3365AF180QG"
 			(at 197.485 115.57 0)
 			(effects
 				(font

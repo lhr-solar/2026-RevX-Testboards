@@ -1844,7 +1844,7 @@
 		(uuid "0fe12d6b-23f5-4bea-8583-4bc95c30698f")
 	)
 	(junction
-		(at 266.065 38.735)
+		(at 210.82 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a8cf5df-105a-4373-ad6e-8bddd7d7f272")
@@ -1862,7 +1862,7 @@
 		(uuid "541369bd-5f37-447c-a47e-0c41ce3f6e0e")
 	)
 	(junction
-		(at 266.065 24.765)
+		(at 210.82 24.765)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6628f16a-55a6-4e94-953c-11c12453c66d")
@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 38.735) (xy 266.065 43.815)
+			(xy 210.82 38.735) (xy 210.82 43.815)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 21.59) (xy 266.065 24.765)
+			(xy 210.82 21.59) (xy 210.82 24.765)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 46.355) (xy 266.065 48.895)
+			(xy 210.82 46.355) (xy 210.82 48.895)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 34.925) (xy 266.065 38.735)
+			(xy 210.82 34.925) (xy 210.82 38.735)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 24.765) (xy 266.065 27.305)
+			(xy 210.82 24.765) (xy 210.82 27.305)
 		)
 		(stroke
 			(width 0)
@@ -3513,7 +3513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 80.645 174.625 0)
 			(effects
 				(font
@@ -4143,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 50.8 174.625 0)
 			(effects
 				(font
@@ -4939,7 +4939,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 266.065 21.59 0)
+		(at 210.82 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4948,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b9c0a40-ea3a-43c2-ad74-4ab10d3fc828")
 		(property "Reference" "#PWR018"
-			(at 266.065 25.4 0)
+			(at 210.82 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 266.065 16.51 0)
+			(at 210.82 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.065 21.59 0)
+			(at 210.82 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.065 21.59 0)
+			(at 210.82 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 266.065 21.59 0)
+			(at 210.82 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 266.065 31.115 0)
+		(at 210.82 31.115 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5216,7 +5216,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8b2336-ae6d-41fe-8d2e-fbdde2b02ef1")
 		(property "Reference" "R8"
-			(at 267.97 29.8449 0)
+			(at 212.725 29.8449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5225,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 267.97 32.3849 0)
+			(at 212.725 32.3849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 265.049 31.369 90)
+			(at 209.804 31.369 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.065 31.115 0)
+			(at 210.82 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5252,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 266.065 31.115 0)
+			(at 210.82 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.065 48.895 0)
+		(at 210.82 48.895 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5790,7 +5790,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcb4ad33-8d3f-4067-9af0-77dfa93ea0ac")
 		(property "Reference" "#PWR019"
-			(at 266.065 55.245 0)
+			(at 210.82 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.065 53.975 0)
+			(at 210.82 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.065 48.895 0)
+			(at 210.82 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.065 48.895 0)
+			(at 210.82 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.065 48.895 0)
+			(at 210.82 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +5847,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 266.065 24.765 270)
+		(at 210.82 24.765 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5856,7 +5856,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0e698b2-6f25-4466-a4d0-75e35d519519")
 		(property "Reference" "TP5"
-			(at 271.78 23.4949 90)
+			(at 216.535 23.4949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5865,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 271.78 26.0349 90)
+			(at 216.535 26.0349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 266.065 29.845 0)
+			(at 210.82 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.065 29.845 0)
+			(at 210.82 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5892,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 266.065 24.765 0)
+			(at 210.82 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 60.96 174.625 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 71.12 174.625 0)
 			(effects
 				(font
@@ -6612,7 +6612,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 266.065 42.545 270)
+		(at 210.82 42.545 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6621,7 +6621,7 @@
 		(dnp no)
 		(uuid "f6b8b059-309e-4ae9-9c3a-878c8f71054d")
 		(property "Reference" "D5"
-			(at 261.366 38.227 0)
+			(at 206.121 38.227 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,15 +6629,15 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 263.906 38.227 0)
+			(at 208.661 38.227 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 266.065 42.545 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 210.82 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.065 42.545 0)
+			(at 210.82 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6655,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 266.065 42.545 0)
+			(at 210.82 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6664,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.065 42.545 0)
+			(at 210.82 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
