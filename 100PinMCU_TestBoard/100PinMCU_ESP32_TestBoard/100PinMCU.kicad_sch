@@ -11186,7 +11186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 233.426 116.459 90)
 			(effects
 				(font
@@ -11324,7 +11324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 138.684 28.321 90)
 			(effects
 				(font
@@ -11605,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 138.684 30.861 90)
 			(effects
 				(font
@@ -12887,7 +12887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 249.555 110.49 0)
 			(effects
 				(font
@@ -13032,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 98.425 187.833 90)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolderDiode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 232.41 104.775 0)
 			(effects
 				(font
@@ -13738,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 259.715 57.658 90)
 			(effects
 				(font
