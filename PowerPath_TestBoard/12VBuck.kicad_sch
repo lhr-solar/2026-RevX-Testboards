@@ -4497,7 +4497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "utsvt_ics:DDC0006A-MFG"
+		(property "Footprint" "UTSVT_ICs:DDC0006A-MFG"
 			(at 114.3 81.28 0)
 			(effects
 				(font
