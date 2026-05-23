@@ -1,3 +1,6 @@
 [submodule "KiCAD-Sharepoint"]
 	path = KiCAD-Sharepoint
 	url = git@github.com:lhr-solar/KiCAD-Sharepoint.git
+[submodule "48PinMCU_TestBoard/KiCAD-Sharepoint"]
+	path = 48PinMCU_TestBoard/KiCAD-Sharepoint
+	url = git@github.com:lhr-solar/KiCAD-Sharepoint.git
