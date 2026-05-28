@@ -523,7 +523,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -559,7 +559,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -680,6 +680,36 @@
           "label": "LSCS P/N",
           "name": "LSCS P/N",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inventory",
+          "name": "Inventory",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "p/n",
+          "name": "p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey P/N",
+          "name": "Digikey P/N",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -751,12 +781,8 @@
       "CAN_Transceiver1"
     ],
     [
-      "81b7a17c-2c6e-4eeb-ba4b-3f9f48e8e5f2",
+      "840885ae-57ff-4136-b869-7c6178ab9d24",
       "100PinMCU"
-    ],
-    [
-      "f1685884-e67b-429a-80dc-8b514a98af32",
-      "USB_PD"
     ]
   ],
   "text_variables": {}
