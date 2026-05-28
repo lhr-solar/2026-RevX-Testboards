@@ -406,23 +406,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
+			(property "Reference" "F1"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
+			(property "Value" "5A"
+				(at 3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Parts:3557-2"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -431,7 +431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.mouser.com/datasheet/3/201/1/M65p41.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -442,6 +442,42 @@
 			)
 			(property "Description" "Fuse"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "3557-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "534-3557-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "36-3557-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C3205238"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -489,6 +525,44 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_0"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3559,6 +3633,12 @@
 		)
 		(pin "1"
 			(uuid "189502f1-2194-422f-96fd-47bdf914b707")
+		)
+		(pin "3"
+			(uuid "e58971ba-32f9-4a41-96ab-18762657bb61")
+		)
+		(pin "4"
+			(uuid "b0166ea0-95fc-4519-8290-be6b7d3472cf")
 		)
 		(instances
 			(project ""
