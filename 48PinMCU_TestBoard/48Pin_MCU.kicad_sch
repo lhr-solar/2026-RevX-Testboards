@@ -2711,6 +2711,16 @@
 		)
 		(uuid "14e22c1c-6c80-4221-9bb3-43ca06c802ea")
 	)
+	(text "MUX Bypass\n"
+		(exclude_from_sim no)
+		(at 277.622 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28133651-71fa-4d6e-9ad0-72accfc2ae4b")
+	)
 	(text "CAN/BOOT Multiplexing"
 		(exclude_from_sim no)
 		(at 235.966 135.382 0)
@@ -3474,6 +3484,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 127) (xy 278.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d13c608-0c65-484d-bd97-590f46a552bd")
+	)
+	(wire
+		(pts
 			(xy 171.704 43.688) (xy 171.704 45.212)
 		)
 		(stroke
@@ -3721,6 +3741,16 @@
 			(type default)
 		)
 		(uuid "80f3b8bf-3a8a-46dd-b299-1c6f7292e5ed")
+	)
+	(wire
+		(pts
+			(xy 278.13 115.57) (xy 278.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fcf01f-c992-4fae-a704-508c121eee31")
 	)
 	(wire
 		(pts
@@ -7659,6 +7689,17 @@
 		)
 		(uuid "46584211-3ea2-41f3-9de9-07bef90854cd")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 278.13 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "501988dc-216e-4da7-8c25-0aef59f94930")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 177.546 127 180)
@@ -7944,6 +7985,17 @@
 			(justify left)
 		)
 		(uuid "c593ac23-9dcc-4ca9-86e3-04641d00b1e5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 278.13 132.08 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d336c452-4993-4a2b-90d4-71bcc5b01b56")
 	)
 	(hierarchical_label "PB15"
 		(shape bidirectional)
@@ -11036,6 +11088,93 @@
 			(project "48PinMCU"
 				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 278.13 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c097f7f3-8ff4-4a5c-a5e2-d9c07b07c1f0")
+		(property "Reference" "C17"
+			(at 274.574 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 272.542 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 279.0952 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://MLR01_e.pdf"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 278.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bf22dbd-b87d-4713-b0f0-766941680efb")
+		)
+		(pin "1"
+			(uuid "627603e1-1b7a-496b-bc45-fd2621de0dae")
+		)
+		(instances
+			(project "48PinMCU_TestBoard"
+				(path "/9cc459e0-f86d-41bb-8426-cce80d92e44c/f864dc39-a41c-4593-ac23-dc35fa5d1c83"
+					(reference "C17")
 					(unit 1)
 				)
 			)
