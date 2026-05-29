@@ -1867,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 168.275 68.5735 0)
 			(effects
 				(font
@@ -1945,7 +1945,7 @@
 			)
 			(project "LDO"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D12"
+		(property "Reference" "D14"
 			(at 133.604 57.15 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 			)
 			(project ""
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 142.875 68.5735 0)
 			(effects
 				(font
@@ -2370,7 +2370,7 @@
 			)
 			(project "LDO"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
