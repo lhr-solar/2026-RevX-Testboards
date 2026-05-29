@@ -11300,7 +11300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Special:450406020024"
+		(property "Footprint" "UTSVT_ESP32:TL3365AF180QG"
 			(at 187.706 117.094 0)
 			(effects
 				(font
