@@ -591,7 +591,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -811,12 +811,12 @@
       "LDO"
     ],
     [
-      "b2b34277-6380-4c83-b190-63063b84f81a",
-      "CAN Transceiver"
-    ],
-    [
       "00ceeae6-3aa8-463a-899d-4f08584cd748",
       "Power Mux"
+    ],
+    [
+      "b2b34277-6380-4c83-b190-63063b84f81a",
+      "CAN Transceiver"
     ]
   ],
   "text_variables": {}

@@ -1982,7 +1982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D9"
+		(property "Reference" "D17"
 			(at 47.244 39.37 0)
 			(effects
 				(font
@@ -2076,7 +2076,7 @@
 			)
 			(project ""
 				(path "/9cc459e0-f86d-41bb-8426-cce80d92e44c/ede07d47-91ad-43c5-ac5b-8c9172101cbc"
-					(reference "D9")
+					(reference "D17")
 					(unit 1)
 				)
 			)
