@@ -10134,7 +10134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" " C529355"
+		(property "LCSC P/N" "C529355"
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -11045,7 +11045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "BOOT"
 			(at 266.192 113.03 90)
 			(effects
 				(font

@@ -2034,6 +2034,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 81.1893 72.8625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b445130a-0430-46a6-8dbf-c0b321c14d9a")
 		)

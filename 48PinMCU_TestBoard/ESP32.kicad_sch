@@ -19925,12 +19925,6 @@
 		(uuid "35d42d73-4eb2-4ec3-ba85-3eedc6423d39")
 	)
 	(junction
-		(at 156.21 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64775356-bc30-482b-92fd-499ed015de7b")
-	)
-	(junction
 		(at 100.33 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20350,7 +20344,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 158.75 86.36)
+			(xy 149.86 86.36) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -20530,16 +20524,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 156.21 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a935469e-7d30-4e17-99c8-d6ccd4628b18")
-	)
-	(wire
-		(pts
 			(xy 100.33 105.41) (xy 100.33 116.84)
 		)
 		(stroke
@@ -20700,26 +20684,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 156.21 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7be0747-cf58-4efd-bded-596934174f2a")
-	)
-	(wire
-		(pts
-			(xy 156.21 71.12) (xy 156.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea2bfb0b-1dc4-4c16-8334-d74a4f043a57")
-	)
-	(wire
-		(pts
 			(xy 91.44 116.84) (xy 100.33 116.84)
 		)
 		(stroke
@@ -20858,7 +20822,7 @@
 		)
 		(uuid "99514332-285a-4f36-a5ae-c620307258ef")
 	)
-	(label "VBUSB"
+	(label "VBUS"
 		(at 60.96 116.84 0)
 		(effects
 			(font
@@ -21062,17 +21026,6 @@
 			(justify left)
 		)
 		(uuid "a286b790-9053-490f-9ad9-8ae6942efff5")
-	)
-	(hierarchical_label "+3.3V_ESP"
-		(shape input)
-		(at 156.21 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a95561ce-d732-4943-b515-b2313ad17f44")
 	)
 	(hierarchical_label "+3.3V_ESP"
 		(shape input)
@@ -22668,94 +22621,6 @@
 			(project ""
 				(path "/9cc459e0-f86d-41bb-8426-cce80d92e44c/34d16e22-f6a7-4a85-a60f-fa2e3b96ee10"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b710730c-6610-477d-86cc-c6368dc62566")
-		(property "Reference" "R26"
-			(at 150.114 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 150.114 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.432 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://dcrcwe3.pdf"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW060310K0FKEI "
-			(at 156.21 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C25804"
-			(at 156.21 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f02c523-4fed-4a89-bf3f-19f5fde918b5")
-		)
-		(pin "2"
-			(uuid "cce12f3e-1d3e-48eb-8840-4d4a5d93fe17")
-		)
-		(instances
-			(project "48PinMCU_TestBoard"
-				(path "/9cc459e0-f86d-41bb-8426-cce80d92e44c/34d16e22-f6a7-4a85-a60f-fa2e3b96ee10"
-					(reference "R26")
 					(unit 1)
 				)
 			)
