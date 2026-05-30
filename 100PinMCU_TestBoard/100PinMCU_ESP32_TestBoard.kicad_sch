@@ -254,6 +254,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -7122,6 +7322,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 110.49) (xy 60.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b5e16-759d-438e-9ad2-45e7f4574cb1")
+	)
+	(wire
+		(pts
 			(xy 88.265 113.665) (xy 73.66 113.665)
 		)
 		(stroke
@@ -7259,6 +7469,16 @@
 			(type default)
 		)
 		(uuid "6ba89566-73f6-4f71-b305-0a475e79aa58")
+	)
+	(wire
+		(pts
+			(xy 52.07 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5cafd6-6083-495c-9721-4f7f38ca4ca5")
 	)
 	(wire
 		(pts
@@ -7622,6 +7842,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 115.57) (xy 60.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b342a813-4e7f-447f-89f8-a3aacc2b30e3")
+	)
+	(wire
+		(pts
 			(xy 220.98 29.21) (xy 224.79 29.21)
 		)
 		(stroke
@@ -7979,6 +8209,16 @@
 			(type default)
 		)
 		(uuid "fbec917e-0f60-4728-8b44-6b61e97fa436")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1eb60e-a885-4d4e-b910-88091deed08c")
 	)
 	(wire
 		(pts
@@ -9164,6 +9404,16 @@
 		)
 		(uuid "8e0d6622-67eb-44e4-9132-ae134a6cb28e")
 	)
+	(label "CAN_H2"
+		(at 52.07 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fcc224f-685e-45dd-96a7-cb8e362f1923")
+	)
 	(label "CC1"
 		(at 240.03 86.36 0)
 		(effects
@@ -9223,6 +9473,16 @@
 			(justify left bottom)
 		)
 		(uuid "ad81f328-64c9-4642-a122-3b5c8c45463e")
+	)
+	(label "CAN_L2"
+		(at 52.07 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af6adcae-1b18-43c4-8eac-1687b91f5cac")
 	)
 	(label "SPI1_MOSI"
 		(at 73.66 125.73 0)
@@ -9354,6 +9614,16 @@
 		)
 		(uuid "e9bf0add-ec4d-408f-830f-0826a306ea5b")
 	)
+	(label "CAN_H1"
+		(at 52.07 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb8a130a-e6ee-4e76-a3a7-cb1350c8343c")
+	)
 	(label "D+"
 		(at 240.03 100.33 0)
 		(effects
@@ -9393,6 +9663,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc20ded0-e17d-444f-924e-91fc7fb76439")
+	)
+	(label "CAN_L1"
+		(at 52.07 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff529593-346e-4fa1-b10a-1f09ee115ea7")
 	)
 	(label "CC2"
 		(at 240.03 88.9 0)
@@ -10054,6 +10334,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C21190"
+			(at 50.8 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b90afcd5-fc5b-439b-8b68-169ccbf82910")
 		)
@@ -10246,7 +10535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 73.66 31.115 0)
 			(effects
 				(font
@@ -10446,6 +10735,15 @@
 		)
 		(property "Mouser Part Number" "CRCW06035K10FKEC "
 			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C23186"
+			(at 205.74 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +11081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 32.385 180.213 90)
 			(effects
 				(font
@@ -10803,6 +11101,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 32.385 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21189"
+			(at 32.385 178.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,6 +11179,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C23162"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -11127,7 +11443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -11155,10 +11471,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1d6dcfc-d215-4737-92a0-2e3833d96271")
+			(uuid "c1d6dcfc-d215-4737-92a0-2e3833d96272")
 		)
 		(pin "2"
-			(uuid "c8eff4c8-617f-4e55-988b-83bd351988ff")
+			(uuid "c8eff4c8-617f-4e55-988b-83bd35198900")
 		)
 		(instances
 			(project ""
@@ -11709,6 +12025,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C23186"
+			(at 213.995 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d5c4558-2d52-40e6-8074-b51782485b6d")
 		)
@@ -11971,6 +12296,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 80.645 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 80.645 167.005 0)
 			(effects
 				(font
@@ -12362,6 +12696,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C21190"
+			(at 254 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "645e968e-facb-443d-affa-cba9bf938353")
 		)
@@ -12570,6 +12913,81 @@
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 66.04 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0b95946-3626-4a25-81eb-18a814a2ade5")
+		(property "Reference" "J9"
+			(at 56.388 118.491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN_Breakout"
+			(at 56.388 121.031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f0cb7f0-6d45-42c2-83da-03f19379e867")
+		)
+		(pin "2"
+			(uuid "70601cc0-4cea-46d0-83cc-a8bc93692b6c")
+		)
+		(pin "4"
+			(uuid "fa5c306b-76b4-4a69-a55b-0585386daca7")
+		)
+		(pin "3"
+			(uuid "98d07c57-6202-4ea1-a2c1-b7d527fca20a")
+		)
+		(instances
+			(project ""
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13401,6 +13819,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C23162"
+			(at 66.675 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08c8fb00-17e1-4417-9247-1b770c8d6011")
 		)
@@ -13604,6 +14031,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C21190"
+			(at 60.96 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "afa40ba9-4114-4775-85ac-a296b892c2ab")
 		)
@@ -13712,7 +14148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 32.385 168.148 90)
 			(effects
 				(font
@@ -13739,11 +14175,20 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC P/N" "C21189"
+			(at 32.385 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "f219d239-a985-4264-aaf0-ba6fe26dd1bb")
+			(uuid "f219d239-a985-4264-aaf0-ba6fe26dd1bc")
 		)
 		(pin "1"
-			(uuid "d8b4f262-005a-43e0-98cb-66c754b59b56")
+			(uuid "d8b4f262-005a-43e0-98cb-66c754b59b57")
 		)
 		(instances
 			(project ""
@@ -13800,6 +14245,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 142.875 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21190"
+			(at 142.875 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,6 +14624,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 71.12 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 71.12 167.005 0)
 			(effects
 				(font
