@@ -4693,6 +4693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6ec2750-611c-4978-b4e3-4c8b3d1a6a71")
 		)
@@ -4770,6 +4779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a789e82-8559-47a5-a193-3da1a09e1a2b")
 		)
@@ -4830,6 +4848,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 57.15 86.36 0)
 			(effects
 				(font
@@ -4932,6 +4959,15 @@
 		)
 		(property "P/N" "PSMN012-100YS"
 			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 90.17 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,6 +5096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7c3b8b5-cbf5-4fa5-811a-dc531978d7a7")
 		)
@@ -5137,6 +5182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f02117a-0022-41be-b2dc-9fe27d40840d")
 		)
@@ -5205,6 +5259,15 @@
 			)
 		)
 		(property "P/N" "CRCW060310K0FKEI"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 102.87 95.25 0)
 			(effects
 				(font
@@ -5324,6 +5387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c47b456-ab13-454c-8204-d028bbdd6949")
 		)
@@ -5406,6 +5478,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 97.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89291cf3-8423-4094-8b52-c69d7c7593b8")
 		)
@@ -5475,6 +5556,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 46.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 46.99 77.47 0)
 			(effects
 				(font
@@ -5577,6 +5667,15 @@
 			)
 		)
 		(property "P/N" "PSMN012-100YS"
+			(at 63.5 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 63.5 43.18 90)
 			(effects
 				(font
@@ -5698,6 +5797,15 @@
 			)
 		)
 		(property "Vf" ""
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -5850,6 +5958,15 @@
 			)
 		)
 		(property "Vf" ""
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -6016,6 +6133,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -6268,6 +6394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 67.31 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "169d702d-0d55-4a82-bef5-3f9bfb5b0641")
 		)
@@ -6335,6 +6470,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MCASU168SB7103KTNA01"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -6492,6 +6645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3a115f-e33d-485a-9f15-8375173b72dd")
 		)
@@ -6586,6 +6748,15 @@
 			)
 		)
 		(property "Vf" ""
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 109.22 46.99 0)
 			(effects
 				(font
@@ -6847,6 +7018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 104.14 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "751598e8-89a0-4294-bcf4-3da7afe3c3a7")
 		)
@@ -6950,6 +7130,15 @@
 			)
 		)
 		(property "P/N" "SMAF4758A-TP"
+			(at 43.18 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 43.18 83.82 90)
 			(effects
 				(font
@@ -7062,6 +7251,15 @@
 			)
 		)
 		(property "Vf" ""
+			(at 36.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 36.83 81.28 0)
 			(effects
 				(font
@@ -7246,6 +7444,15 @@
 			)
 		)
 		(property "Vf" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 97.79 73.66 0)
 			(effects
 				(font

@@ -3967,6 +3967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "678b7bae-2496-4429-86d0-56105f7be6de")
 		)
@@ -4146,6 +4155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f8c829e-0d94-4597-b6d1-11f962781726")
 		)
@@ -4220,6 +4238,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 227.33 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 227.33 128.27 0)
 			(effects
 				(font
@@ -4310,6 +4337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 161.29 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7e9a79e-6fc0-45e0-b61d-be193396dd81")
 		)
@@ -4392,6 +4428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5956835d-5617-45da-b31a-d5e254951259")
 		)
@@ -4451,6 +4496,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 227.33 140.97 0)
 			(effects
 				(font
@@ -4536,6 +4590,15 @@
 			)
 		)
 		(property "P/N" "LMR51635XDDCR"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 114.3 81.28 0)
 			(effects
 				(font
@@ -4638,6 +4701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 240.03 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc726904-898e-4cfe-b1bd-516dd3431c3e")
 		)
@@ -4715,6 +4787,15 @@
 			)
 		)
 		(property "LCSC P/N" "C77101"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -4978,6 +5059,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5836b8ab-fa56-47f1-8634-69b00a25ef78")
 		)
@@ -5156,6 +5246,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8411bda-995e-438f-ba05-680f6fba0e23")
 		)
@@ -5248,6 +5347,15 @@
 			)
 		)
 		(property "P/N" "0603WAF1022T5E"
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 224.79 93.98 0)
 			(effects
 				(font

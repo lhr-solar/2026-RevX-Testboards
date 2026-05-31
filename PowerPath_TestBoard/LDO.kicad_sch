@@ -1939,6 +1939,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
 		)
@@ -2050,6 +2059,15 @@
 				)
 			)
 		)
+		(property "Part #" ""
+			(at 62.23 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
 		)
@@ -2149,6 +2167,15 @@
 			)
 		)
 		(property "LCSC MFG P/N" "LM39100S-3.3"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 49.53 45.72 0)
 			(effects
 				(font
@@ -2269,6 +2296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
 		)
@@ -2364,6 +2400,15 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43L"
+			(at 36.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 36.83 52.07 0)
 			(effects
 				(font

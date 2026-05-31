@@ -6966,6 +6966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ced076b8-7736-44c9-8530-dcb4e5339515")
 		)
@@ -7062,6 +7071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 213.36 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcaad15a-6931-4ed6-8e03-eb70601c56a6")
 		)
@@ -7122,6 +7140,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -7201,6 +7228,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b2c0834-e206-4949-9ecd-d5ef8f83cdf5")
 		)
@@ -7261,6 +7297,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 187.96 26.67 0)
 			(effects
 				(font
@@ -7354,6 +7399,15 @@
 			)
 		)
 		(property "P/N" "NCD0603R1"
+			(at 41.91 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 41.91 76.2 90)
 			(effects
 				(font
@@ -7517,6 +7571,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f23fe25d-a059-4dff-89be-faf2b840fe61")
 		)
@@ -7645,6 +7708,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 33.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 33.02 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,6 +7863,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b137ccb9-f589-4ffd-9f29-3bc09b11d244")
 		)
@@ -7867,6 +7948,15 @@
 			)
 		)
 		(property "P/N" "CRCW060322K0FKEAHP"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -8027,6 +8117,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 17.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90d14175-97b9-41b3-a3d5-edb4128b9bbf")
 		)
@@ -8086,6 +8185,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 111.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 111.76 173.99 0)
 			(effects
 				(font
@@ -8187,6 +8295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 101.6 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7643d36-a908-446f-b17e-f91221d1a620")
 		)
@@ -8249,6 +8366,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 68.58 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,6 +8451,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 16.51 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a880954e-b6fa-4bdd-b112-458fcfccf728")
 		)
@@ -8387,6 +8522,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 85.09 181.61 0)
 			(effects
 				(font
@@ -8621,6 +8765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 115.57 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c263c8d-7eb5-4598-9244-0d5cf2d71abe")
 		)
@@ -8692,6 +8845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e9d9abc-a244-4315-8b56-45dbcabbff8d")
 		)
@@ -8752,6 +8914,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 182.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 182.88 26.67 0)
 			(effects
 				(font
@@ -8919,6 +9090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 176.53 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f71c9ee-f998-408b-a27c-cf6196262005")
 		)
@@ -9075,6 +9255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f20216fd-2596-4d37-9ff1-e48340a96516")
 		)
@@ -9155,6 +9344,15 @@
 			)
 		)
 		(property "P/N" "575-4 "
+			(at 68.58 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 68.58 181.61 90)
 			(effects
 				(font
@@ -9248,6 +9446,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 50.8 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d1737c5-9083-4aab-8579-2fd6be072849")
 		)
@@ -9305,6 +9512,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -9393,6 +9609,15 @@
 			)
 		)
 		(property "P/N" "0603WAF2201T5E"
+			(at 274.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 274.32 67.31 0)
 			(effects
 				(font
@@ -9554,6 +9779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 173.99 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b6ba556-483b-4611-9ad1-638e8c81d9bb")
 		)
@@ -9611,6 +9845,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -9699,6 +9942,15 @@
 			)
 		)
 		(property "P/N" "CRCW060322K0FKEAHP"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -9811,6 +10063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 31.75 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03d5520d-61a0-4637-9b5a-a2a91c299676")
 		)
@@ -9874,6 +10135,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -10025,6 +10295,15 @@
 			)
 		)
 		(property "P/N" "0603WAF2201T5E"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -10187,6 +10466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 33.02 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24d5cbcf-7ada-4e06-885d-cf405adeb271")
 		)
@@ -10263,6 +10551,15 @@
 			)
 		)
 		(property "P/N" "575-4 "
+			(at 213.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 213.36 52.07 0)
 			(effects
 				(font
@@ -10355,6 +10652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19029335-9c78-421b-89f0-931958c2b434")
 		)
@@ -10414,6 +10720,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 50.8 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,6 +10816,15 @@
 			)
 		)
 		(property "P/N" "0603WAF2201T5E"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -10740,6 +11064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 274.32 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6aee021-85e1-4f4c-9751-2bb0fb033dd6")
 		)
@@ -10894,6 +11227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e0659e5-e259-4378-a810-07ad2dd934cb")
 		)
@@ -10956,6 +11298,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 111.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 111.76 181.61 0)
 			(effects
 				(font
@@ -11057,6 +11408,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 189.23 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2d49e75-3e24-452b-a1d1-dc209ef673dc")
 		)
@@ -11145,6 +11505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 16.51 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c3678e7-e6d2-439f-9384-f9695d452920")
 		)
@@ -11205,6 +11574,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 189.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 189.23 62.23 0)
 			(effects
 				(font
@@ -11281,6 +11659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" ""
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbc7852-9c7c-4232-a055-d628426d8832")
 		)
@@ -11340,6 +11727,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 85.09 173.99 0)
 			(effects
 				(font
