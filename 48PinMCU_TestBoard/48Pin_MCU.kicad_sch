@@ -11183,7 +11183,7 @@
 				)
 			)
 		)
-		(property "Value" "SWD_Header_02x02"
+		(property "Value" "SWD"
 			(at 186.69 146.05 0)
 			(effects
 				(font
