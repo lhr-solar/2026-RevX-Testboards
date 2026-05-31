@@ -718,23 +718,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad_MP"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad_MP"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -759,7 +763,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection as pad named MP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -777,7 +781,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -786,9 +790,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_MP_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -796,6 +800,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_MP_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5960,10 +5984,22 @@
 		(uuid "1121ce3d-7f89-4d35-99bd-8c2216ccaa57")
 	)
 	(junction
+		(at 185.42 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1794f4ea-38e1-4e95-b951-6b40c65f18b0")
+	)
+	(junction
 		(at 120.65 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ea1fe96-9c4d-461f-812b-bc9d517dfa78")
+	)
+	(junction
+		(at 187.96 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f82c608-f09a-403a-9c64-e81797be2606")
 	)
 	(junction
 		(at 120.65 52.07)
@@ -6036,6 +6072,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef3de033-9330-4c18-aa73-59b722a546f3")
+	)
+	(no_connect
+		(at 111.76 176.53)
+		(uuid "1429de56-a11c-4897-9282-9ee654b6ee90")
+	)
+	(no_connect
+		(at 85.09 184.15)
+		(uuid "143b0b6a-0a7b-471d-a52a-fa5d017e573b")
+	)
+	(no_connect
+		(at 85.09 176.53)
+		(uuid "6b5b074d-a580-4665-8b44-b7f48213151f")
+	)
+	(no_connect
+		(at 111.76 184.15)
+		(uuid "6edb38ce-b77e-41fd-9667-ee31d257db85")
 	)
 	(wire
 		(pts
@@ -6339,6 +6391,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 26.67) (xy 187.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4a701e-ea85-4d0b-8f54-0c2eea996050")
+	)
+	(wire
+		(pts
 			(xy 116.84 71.12) (xy 116.84 72.39)
 		)
 		(stroke
@@ -6559,7 +6621,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 26.67) (xy 187.96 26.67)
+			(xy 182.88 26.67) (xy 185.42 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7146,6 +7208,74 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18bb2b0e-0f10-4b47-96cc-898ba7fd93be")
+		(property "Reference" "TP21"
+			(at 190.5 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "121aaa27-9c79-4b5a-aaaa-af0c6066c933")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -7910,6 +8040,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 111.76 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46853aae-2713-42c7-9575-ba5f190119b6")
+		(property "Reference" "H2"
+			(at 114.3 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 114.3 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
+			(at 111.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 111.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "82569fa0-a7cc-4b2c-97a7-41815ecb2fcc")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 101.6 76.2 90)
 		(unit 1)
@@ -8138,6 +8335,73 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 85.09 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae17741-1ed9-409f-966d-13a36a9f6e73")
+		(property "Reference" "H1"
+			(at 87.63 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 87.63 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "0e704678-2b18-472e-9d2b-dd536af1d88d")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9153,87 +9417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 111.76 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9eb51d82-91fb-4645-9558-5f2356c5535e")
-		(property "Reference" "H3"
-			(at 114.3 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 114.3 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 111.76 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 274.32 82.55 0)
 		(unit 1)
@@ -9378,87 +9561,6 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 111.76 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "afa6cc59-1fce-42bf-b717-da3fce12f903")
-		(property "Reference" "H4"
-			(at 114.3 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 114.3 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 111.76 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10491,87 +10593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 83.82 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9e4bac8-ec23-421a-a9ca-4b07b184086d")
-		(property "Reference" "H1"
-			(at 86.36 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 86.36 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 83.82 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 250.19 82.55 0)
 		(unit 1)
@@ -10735,87 +10756,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 83.82 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0f75f86-211e-414f-ba0c-224d52cd9368")
-		(property "Reference" "H2"
-			(at 86.36 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 86.36 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 83.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PowerPath"
-				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 82.55 0)
 		(unit 1)
@@ -10964,6 +10904,73 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 111.76 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4e68843-ae78-4c6a-9fd6-c85434c47070")
+		(property "Reference" "H3"
+			(at 114.3 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 114.3 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
+			(at 111.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 111.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "0bddb7f6-658a-42af-8861-e10c8732a22a")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11213,6 +11220,141 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbc1f112-eb7b-47fc-94e2-6dc42518dd78")
+		(property "Reference" "TP20"
+			(at 187.96 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcbc7852-9c7c-4232-a055-d628426d8832")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad_MP")
+		(at 85.09 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feac6fcb-d588-49c3-a4a3-7dd667cbe9c0")
+		(property "Reference" "H5"
+			(at 87.63 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 87.63 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection as pad named MP"
+			(at 85.09 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "4ab42b6b-8b9d-4973-931d-c7fb67ab92bf")
+		)
+		(instances
+			(project ""
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "H5")
 					(unit 1)
 				)
 			)
