@@ -5804,7 +5804,7 @@
 	)
 	(rectangle
 		(start 12.7 142.24)
-		(end 135.636 186.69)
+		(end 176.53 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -5867,6 +5867,16 @@
 			)
 		)
 		(uuid "36802e63-ffba-4b30-b7b9-b5a5c3481b05")
+	)
+	(text "Cursed Test:"
+		(exclude_from_sim no)
+		(at 151.638 146.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39120d89-841e-46c3-baf6-942d6642d64b")
 	)
 	(text "GND Connector"
 		(exclude_from_sim no)
@@ -6091,6 +6101,36 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 166.37) (xy 167.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0058caac-b5fa-4592-8ec0-4cbf0b2c4337")
+	)
+	(wire
+		(pts
+			(xy 147.32 182.88) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037e4df7-99f4-4a41-be1d-01ac73ee2ce9")
+	)
+	(wire
+		(pts
+			(xy 167.64 148.59) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07af0b19-b713-4ec9-8b8e-82034b555b6f")
+	)
+	(wire
+		(pts
 			(xy 213.36 69.85) (xy 213.36 71.12)
 		)
 		(stroke
@@ -6311,6 +6351,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 166.37) (xy 139.7 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698b976f-4f30-410f-9adb-880ceb7ec963")
+	)
+	(wire
+		(pts
+			(xy 153.67 148.59) (xy 153.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b45d4f0-fe54-4c6b-9f4e-18731d89215e")
+	)
+	(wire
+		(pts
 			(xy 176.53 121.92) (xy 176.53 124.46)
 		)
 		(stroke
@@ -6371,6 +6431,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 165.1) (xy 147.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861f0540-4c6a-4493-9784-e5b3cf9adbe5")
+	)
+	(wire
+		(pts
 			(xy 116.84 80.01) (xy 116.84 82.55)
 		)
 		(stroke
@@ -6408,6 +6478,16 @@
 			(type default)
 		)
 		(uuid "945b6161-4308-4274-90c1-0a21bcb879bb")
+	)
+	(wire
+		(pts
+			(xy 153.67 166.37) (xy 153.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98eea634-4c89-4c2f-94e4-074153e6844e")
 	)
 	(wire
 		(pts
@@ -6478,6 +6558,16 @@
 			(type default)
 		)
 		(uuid "a81df941-69f4-4eaa-a5e1-a763b9bb3615")
+	)
+	(wire
+		(pts
+			(xy 139.7 148.59) (xy 139.7 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abee0be9-1fe1-478a-8b02-eb458326bd58")
 	)
 	(wire
 		(pts
@@ -6709,6 +6799,16 @@
 		)
 		(uuid "2d749efd-7be9-46d9-b7cc-770b6d37258c")
 	)
+	(label "+Vin_5V"
+		(at 167.64 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38139291-6228-4234-8f27-0cd35d580924")
+	)
 	(label "+Vout_3V3"
 		(at 281.94 62.23 180)
 		(effects
@@ -6779,6 +6879,16 @@
 		)
 		(uuid "70d97aad-2d92-4f4d-9a2e-1767c0863267")
 	)
+	(label "+24V_Ext"
+		(at 139.7 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83b7f64c-cc11-4139-8562-2076602765cb")
+	)
 	(label "+Vin_5V"
 		(at 50.8 147.32 270)
 		(effects
@@ -6789,6 +6899,16 @@
 		)
 		(uuid "9a46c1da-a3f7-4995-ab48-761bc9f1c890")
 	)
+	(label "+Vout_3V3"
+		(at 147.32 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a67479c2-ba0b-46e9-878e-4cce7ea19c6e")
+	)
 	(label "Vout_24V"
 		(at 78.74 105.41 0)
 		(effects
@@ -6798,6 +6918,16 @@
 			(justify left bottom)
 		)
 		(uuid "aefbe6d7-621e-4a2b-a0a9-6ecada114888")
+	)
+	(label "V_out_12V"
+		(at 153.67 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2976f62-3621-44a5-8013-d224d62a39ff")
 	)
 	(label "+Vin_5V"
 		(at 213.36 62.23 0)
@@ -7663,6 +7793,84 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 147.32 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d7110e-8f70-4559-bb55-f1e3b21ed62d")
+		(property "Reference" "JP11"
+			(at 149.098 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V Load"
+			(at 149.352 178.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 147.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 147.32 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bce5b852-01b9-42c4-9ca7-e04e99e40ec7")
+		)
+		(pin "1"
+			(uuid "b4b10397-6a87-4d60-8608-c7ac13f3d56a")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 33.02 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7734,6 +7942,73 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0af88f-1d90-454c-871d-ea2249d49e49")
+		(property "Reference" "#PWR025"
+			(at 147.32 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff0f2d4b-07f4-4e6c-b2d5-599213ba24c3")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8133,6 +8408,73 @@
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433c2e08-fd8a-4f2f-a12c-0d84565596f6")
+		(property "Reference" "#PWR023"
+			(at 167.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b508b38-708d-4eec-a13b-07029b075ebc")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10088,6 +10430,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 139.7 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c388b6a4-a611-47cc-b1b9-ea62b7f84824")
+		(property "Reference" "#PWR022"
+			(at 139.7 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64061225-1b16-42ab-a1ba-a4ea8c9a2e2e")
+		)
+		(instances
+			(project ""
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 176.53 105.41 0)
 		(unit 1)
@@ -10159,6 +10568,73 @@
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5066820-b67f-47e6-bc9e-840f07678c94")
+		(property "Reference" "#PWR024"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c028d2c-7440-4550-b18c-ea52097457c7")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10917,6 +11393,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 167.64 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4433973-64ad-42d5-bb85-80920bc69ede")
+		(property "Reference" "JP10"
+			(at 169.418 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V Load"
+			(at 169.672 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 167.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 167.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 167.64 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce19cd0f-fe4d-4e94-8482-21aa406e41d0")
+		)
+		(pin "1"
+			(uuid "bb3ae12e-feab-49ec-b35a-86e149a5a8fb")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 82.55 0)
 		(unit 1)
@@ -11521,6 +12075,162 @@
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 153.67 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa7b4c86-f5fd-43f0-b2b5-6e7d0e625f74")
+		(property "Reference" "JP9"
+			(at 155.448 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V Load"
+			(at 155.702 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 153.67 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bc5b855-e20e-4dc3-b45e-49d5a2153986")
+		)
+		(pin "1"
+			(uuid "ea70758c-c409-4ccb-97fd-74277a6b619f")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 139.7 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb0f33bd-e891-42d8-9658-629354fef7d2")
+		(property "Reference" "JP8"
+			(at 141.478 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12V Load"
+			(at 141.732 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 139.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 139.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 139.7 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "435fa0fe-f5c2-43c8-9aae-43cfac2263f0")
+		)
+		(pin "1"
+			(uuid "f3c9e481-3127-4e46-ab5a-34e301f9a52c")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
