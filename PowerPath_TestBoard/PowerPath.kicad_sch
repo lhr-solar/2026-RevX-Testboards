@@ -5838,26 +5838,6 @@
 		)
 		(uuid da65cb1e-1a99-48db-ba61-c5e3a6525428)
 	)
-	(text "3.3V loads:\n330Ω  → 10mA, 0.033W\n100Ω  → 33mA, 0.109W\n50Ω   → 66mA, 0.218W"
-		(exclude_from_sim no)
-		(at 121.92 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1391d838-7c9f-42cc-b7dc-f59f2db1af56")
-	)
-	(text "12V loads:\n1kΩ   → 12mA, 0.144W\n470Ω  → 25.5mA, 0.306W\n100Ω  → 120mA, 1.44W\n"
-		(exclude_from_sim no)
-		(at 119.38 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33112e19-341b-4a46-b979-e46d98c9b6d8")
-	)
 	(text "3v3 Resistor calculation:\nR = (3.3V - 2V) / 1.3mA\nR = 1.3V / 0.0013A\nR = 1000Ω"
 		(exclude_from_sim no)
 		(at 267.97 20.32 0)
@@ -5901,16 +5881,6 @@
 		)
 		(uuid "4607a87f-1b0d-4bc2-8690-2d86367f3e7f")
 	)
-	(text "5V loads:\n470Ω  → 10.6mA, 0.053W\n100Ω  → 50mA, 0.25W\n50Ω   → 100mA, 0.5W"
-		(exclude_from_sim no)
-		(at 90.17 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5fc4a18d-c406-4e3e-ba6a-1177c6bac3b0")
-	)
 	(text "Power Path"
 		(exclude_from_sim no)
 		(at 22.86 43.18 0)
@@ -5930,16 +5900,6 @@
 			)
 		)
 		(uuid "99b930ee-20fe-4083-a03c-88a8f2078332")
-	)
-	(text "24V loads:\n1kΩ   → 24mA, 0.576W\n470Ω  → 51mA, 1.23W\n200Ω  → 120mA, 2.88W"
-		(exclude_from_sim no)
-		(at 90.17 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a350ff9c-4867-462a-b32f-0bd350de3d16")
 	)
 	(text "24V Resistor Calculations:\nR = (24V - 2V) / 1.0mA\nR = 22V / 0.001A\nR = 22000Ω"
 		(exclude_from_sim no)
@@ -6052,6 +6012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29bbdbe-f919-4032-916d-9a196cd0d002")
+	)
+	(junction
+		(at 180.34 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc7c9aa-865f-41b3-9744-17c72ad733dc")
 	)
 	(junction
 		(at 176.53 105.41)
@@ -6341,6 +6307,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 46.99) (xy 71.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db5caf4-36e7-4ebb-872a-4fd57de5485e")
+	)
+	(wire
+		(pts
 			(xy 50.8 147.32) (xy 50.8 156.21)
 		)
 		(stroke
@@ -6398,6 +6374,16 @@
 			(type default)
 		)
 		(uuid "73237987-e56b-4fd2-ab35-f31deb56e9f2")
+	)
+	(wire
+		(pts
+			(xy 180.34 26.67) (xy 182.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ab0311-6192-4180-8858-f91c7d5f80bf")
 	)
 	(wire
 		(pts
@@ -6491,7 +6477,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 26.67) (xy 182.88 26.67)
+			(xy 179.07 26.67) (xy 180.34 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6701,6 +6687,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 74.93) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb388f7-38e7-404d-972a-b53f66a8ccbb")
+	)
+	(wire
+		(pts
 			(xy 101.6 80.01) (xy 101.6 82.55)
 		)
 		(stroke
@@ -6748,6 +6744,16 @@
 			(type default)
 		)
 		(uuid "f0b5d9e4-082c-4c8d-9db2-7328cddc35e6")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d5429d-329a-4fb8-b3d5-3403c4fa5fc7")
 	)
 	(wire
 		(pts
@@ -6959,7 +6965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026536ba-203f-4283-a3c3-8419262b6a7e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 41.91 88.9 0)
 			(effects
 				(font
@@ -7009,7 +7015,73 @@
 		(instances
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR02")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "047d0c34-7c12-4737-a093-2dc46b4cdc7c")
+		(property "Reference" "#PWR017"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4e18453-2b5c-4b3a-8fab-1cf17cd83542")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7388,7 +7460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18bb2b0e-0f10-4b47-96cc-898ba7fd93be")
-		(property "Reference" "TP21"
+		(property "Reference" "TP9"
 			(at 190.5 22.0979 0)
 			(effects
 				(font
@@ -7450,7 +7522,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP21")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7571,7 +7643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb0e32e-9ab9-4366-a1d9-2537a50b78bb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -7622,7 +7694,7 @@
 		(instances
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7735,7 +7807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22680f9f-2c42-4431-b324-d9fb5ff3c94b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 115.57 130.81 0)
 			(effects
 				(font
@@ -7785,7 +7857,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7800,7 +7872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24d7110e-8f70-4559-bb55-f1e3b21ed62d")
-		(property "Reference" "JP11"
+		(property "Reference" "JP8"
 			(at 149.098 176.276 90)
 			(effects
 				(font
@@ -7863,7 +7935,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "JP11")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7957,7 +8029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d0af88f-1d90-454c-871d-ea2249d49e49")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR06"
 			(at 147.32 189.23 0)
 			(effects
 				(font
@@ -8008,7 +8080,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR025")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8091,7 +8163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b1dd27-a4ab-4235-bff3-afc11aff672a")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 104.14 58.9279 0)
 			(effects
 				(font
@@ -8153,7 +8225,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8265,7 +8337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a8dd61c-b44f-4e06-ae63-1df3462855d1")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -8315,7 +8387,7 @@
 		(instances
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8423,7 +8495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "433c2e08-fd8a-4f2f-a12c-0d84565596f6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR010"
 			(at 167.64 172.72 0)
 			(effects
 				(font
@@ -8474,7 +8546,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR023")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8490,7 +8562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46853aae-2713-42c7-9575-ba5f190119b6")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 114.3 171.4499 0)
 			(effects
 				(font
@@ -8550,7 +8622,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8827,7 +8899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae17741-1ed9-409f-966d-13a36a9f6e73")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 87.63 179.0699 0)
 			(effects
 				(font
@@ -8887,7 +8959,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8903,7 +8975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6125f3c4-4fba-493d-9140-7eb8da2112e7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 213.36 87.63 0)
 			(effects
 				(font
@@ -8953,7 +9025,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8969,7 +9041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6543f002-4890-4a50-bab2-e01ac4ebebcf")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -9020,7 +9092,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9140,7 +9212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67439400-a081-464e-8af0-953ee50a56b7")
-		(property "Reference" "TP6"
+		(property "Reference" "TP11"
 			(at 215.9 57.6579 0)
 			(effects
 				(font
@@ -9202,6 +9274,83 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "736afc53-5ddd-4632-86b4-d0100c84eea0")
+		(property "Reference" "TP6"
+			(at 182.88 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e633ced-a792-493a-9cfe-715f68541813")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
 					(reference "TP6")
 					(unit 1)
 				)
@@ -9217,7 +9366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "750a4802-1249-4e72-a959-b51d66c8fe54")
-		(property "Reference" "TP4"
+		(property "Reference" "TP7"
 			(at 185.42 22.0979 0)
 			(effects
 				(font
@@ -9279,7 +9428,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP4")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9295,7 +9444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75778b5f-fd88-496b-be1d-3f76eb1f7f0a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR011"
 			(at 176.53 130.81 0)
 			(effects
 				(font
@@ -9345,7 +9494,84 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR08")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80c97580-6c71-4068-9b5b-58be5e7a50d2")
+		(property "Reference" "TP2"
+			(at 73.66 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "24V_OUT"
+			(at 66.802 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4c0b56-e39c-4152-bdcc-cec56b1381d9")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9631,7 +9857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94637d09-ce25-464b-b4c9-bc5ee865b08a")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 71.12 180.3399 90)
 			(effects
 				(font
@@ -9709,7 +9935,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9725,7 +9951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "964430b9-b226-494e-b99e-67fe4e3f3b4e")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 53.34 180.3399 90)
 			(effects
 				(font
@@ -9803,7 +10029,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9984,6 +10210,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0fbe932-80fe-46b4-b71e-44aea86bbbad")
+		(property "Reference" "TP3"
+			(at 78.74 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "24V_OUT"
+			(at 71.882 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b598da41-bbde-47fd-b329-9efea033b276")
+		)
+		(instances
+			(project "PowerPath"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 274.32 82.55 0)
 		(unit 1)
@@ -9993,7 +10296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77d7ac6-28d0-4d90-a2aa-426d476887f2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 274.32 88.9 0)
 			(effects
 				(font
@@ -10043,7 +10346,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10060,7 +10363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af453047-2212-4b50-b2a7-17d5f33647eb")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 173.99 20.32 0)
 			(effects
 				(font
@@ -10136,7 +10439,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0573b37-3fd1-40a0-9138-1fde9f6eb049")
-		(property "Reference" "JP7"
+		(property "Reference" "JP11"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -10213,7 +10516,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "JP7")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -10439,7 +10742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c388b6a4-a611-47cc-b1b9-ea62b7f84824")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR05"
 			(at 139.7 172.72 0)
 			(effects
 				(font
@@ -10490,7 +10793,7 @@
 		(instances
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR022")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10505,7 +10808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c46b08bc-dbda-48e5-87cf-2b04839e42e8")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 179.07 100.8379 0)
 			(effects
 				(font
@@ -10567,7 +10870,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10583,7 +10886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5066820-b67f-47e6-bc9e-840f07678c94")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 153.67 172.72 0)
 			(effects
 				(font
@@ -10634,7 +10937,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR024")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10650,7 +10953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c66c5f98-664f-46c7-9566-5f827eb6d871")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 189.23 87.63 0)
 			(effects
 				(font
@@ -10700,7 +11003,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10813,7 +11116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf866f8-4e9b-49ec-9c93-78f29f629868")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -10863,7 +11166,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10879,7 +11182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d58f9353-f85c-4c57-8741-b12839f22e4e")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 35.56 180.3399 90)
 			(effects
 				(font
@@ -10957,7 +11260,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10974,7 +11277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ba1264-539b-466d-b7ad-241dafe87cd4")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 213.36 45.72 0)
 			(effects
 				(font
@@ -11050,7 +11353,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80668cc-055f-4317-8858-2de2016fe7f7")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -11143,7 +11446,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -11480,7 +11783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaeebe1a-9a86-4e4f-be5c-8afb0b498c33")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -11531,7 +11834,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11652,7 +11955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f241d71d-804a-4281-b607-4fe8e9fc00f0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -11702,7 +12005,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11815,7 +12118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e68843-ae78-4c6a-9fd6-c85434c47070")
-		(property "Reference" "H3"
+		(property "Reference" "H4"
 			(at 114.3 179.0699 0)
 			(effects
 				(font
@@ -11875,7 +12178,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12167,7 +12470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb0f33bd-e891-42d8-9658-629354fef7d2")
-		(property "Reference" "JP8"
+		(property "Reference" "JP7"
 			(at 141.478 159.766 90)
 			(effects
 				(font
@@ -12230,7 +12533,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "JP8")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -12245,7 +12548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbaae4d6-f506-43df-a639-2aa8689ac33d")
-		(property "Reference" "TP5"
+		(property "Reference" "TP10"
 			(at 191.77 57.6579 0)
 			(effects
 				(font
@@ -12307,7 +12610,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP5")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -12322,7 +12625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbc1f112-eb7b-47fc-94e2-6dc42518dd78")
-		(property "Reference" "TP20"
+		(property "Reference" "TP8"
 			(at 187.96 22.0979 0)
 			(effects
 				(font
@@ -12384,7 +12687,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "TP20")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12400,7 +12703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feac6fcb-d588-49c3-a4a3-7dd667cbe9c0")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 87.63 171.4499 0)
 			(effects
 				(font
@@ -12460,7 +12763,7 @@
 		(instances
 			(project ""
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12468,7 +12771,7 @@
 	)
 	(sheet
 		(at 53.34 49.53)
-		(size 38.1 26.67)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12481,7 +12784,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0215d0ce-f9a2-469c-b8b1-4bffaf8b0ecf")
+		(uuid "2ede947c-492e-4efc-82d2-041e75e509a7")
 		(property "Sheetname" "PowerProtection"
 			(at 53.34 48.8184 0)
 			(effects
@@ -12492,7 +12795,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 53.34 76.7846 0)
+			(at 53.34 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,9 +12803,19 @@
 				(justify left top)
 			)
 		)
-		(pin "Vin" input
-			(at 53.34 63.5 180)
-			(uuid "01dba88e-d733-475f-b92a-2da45f157f27")
+		(pin "gate" output
+			(at 71.12 49.53 90)
+			(uuid "6db9dc29-9de2-415f-9fa5-ddd469e46c1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 72.39 74.93 270)
+			(uuid "65842ee8-da38-4c93-95a7-96a81efd6f44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,9 +12823,29 @@
 				(justify left)
 			)
 		)
-		(pin "Vout" input
+		(pin "source" passive
+			(at 76.2 49.53 90)
+			(uuid "a3048fcf-541b-4d75-95d4-fb52336e9566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin" input
+			(at 53.34 63.5 180)
+			(uuid "9a66b74f-0455-4c74-a735-766a500d8c41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
 			(at 91.44 63.5 0)
-			(uuid "6a961964-378e-40c0-b2e7-2834903e4b95")
+			(uuid "0ea32baf-4e94-4771-b290-e8bcd3f73488")
 			(effects
 				(font
 					(size 1.27 1.27)

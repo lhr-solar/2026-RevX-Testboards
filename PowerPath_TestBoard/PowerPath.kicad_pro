@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 3.4,
-          "width": 3.4
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -803,7 +803,7 @@
       "LDO"
     ],
     [
-      "0215d0ce-f9a2-469c-b8b1-4bffaf8b0ecf",
+      "2ede947c-492e-4efc-82d2-041e75e509a7",
       "PowerProtection"
     ],
     [

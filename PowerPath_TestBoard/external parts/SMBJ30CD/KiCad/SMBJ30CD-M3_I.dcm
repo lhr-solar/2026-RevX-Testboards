@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMBJ30CD-M3_I
+D ESD Suppressors / TVS Diodes 30V 600W Bidir TransZorb 3.5% Tol
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-23/456981.pdf
+$ENDCMP
+#
+#End Doc Library

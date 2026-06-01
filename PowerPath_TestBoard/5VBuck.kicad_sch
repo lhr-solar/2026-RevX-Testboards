@@ -3973,7 +3973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a82137d-8871-44a3-ab21-ce47721f3f56")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 170.18 49.5299 0)
 			(effects
 				(font
@@ -4066,7 +4066,7 @@
 			)
 			(project "5VBuck"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4190,7 +4190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a05fa4d-69b8-4025-a5e1-b9eaf2e07e09")
-		(property "Reference" "TP12"
+		(property "Reference" "TP17"
 			(at 184.15 80.5179 0)
 			(effects
 				(font
@@ -4251,7 +4251,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "TP12")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a9a8dd-edb3-41d3-83e8-254a53afc325")
-		(property "Reference" "TP13"
+		(property "Reference" "TP18"
 			(at 184.15 93.2179 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "TP13")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -4838,7 +4838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22156a2-b827-4f79-bec6-44d42ccd9b29")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 170.18 41.9099 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 			)
 			(project "5VBuck"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5055,7 +5055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ae4365-a578-40b2-aaa3-5063f3e55771")
-		(property "Reference" "TP11"
+		(property "Reference" "TP16"
 			(at 171.45 93.2179 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/ae63f0a9-78b8-4efb-b2ee-a2699a24d705"
-					(reference "TP11")
+					(reference "TP16")
 					(unit 1)
 				)
 			)

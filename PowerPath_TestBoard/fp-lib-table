@@ -9,4 +9,5 @@
   (lib (name "UTSVT_Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Sharepoint/UTSVT_Connectors.pretty")(options "")(descr ""))
   (lib (name "575-4")(type "KiCad")(uri "${KIPRJMOD}/external parts/575-4")(options "")(descr ""))
   (lib (name "PSMN012-100YS")(type "KiCad")(uri "${KIPRJMOD}/external parts/PSMN012-100YS_115")(options "")(descr ""))
+  (lib (name "SMBJ30CD")(type "KiCad")(uri "${KIPRJMOD}/external parts/SMBJ30CD/SMBJ30CD-M3_I/KiCad")(options "")(descr ""))
 )

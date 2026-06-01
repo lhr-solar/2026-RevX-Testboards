@@ -4200,7 +4200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "534903a9-bc70-4eea-8652-865f25dff125")
-		(property "Reference" "TP7"
+		(property "Reference" "TP12"
 			(at 229.87 123.6979 0)
 			(effects
 				(font
@@ -4261,7 +4261,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "TP7")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4382,7 +4382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ac0e0a-b625-451c-8647-39e69a3821d2")
-		(property "Reference" "TP9"
+		(property "Reference" "TP14"
 			(at 242.57 123.6979 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "TP9")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -4458,7 +4458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64ce3126-4047-4ded-b1a6-5032d153b3af")
-		(property "Reference" "TP8"
+		(property "Reference" "TP13"
 			(at 229.87 136.3979 0)
 			(effects
 				(font
@@ -4519,7 +4519,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "TP8")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -4655,7 +4655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "675412a8-5687-4eb6-926f-5dd959758475")
-		(property "Reference" "TP10"
+		(property "Reference" "TP15"
 			(at 242.57 136.3979 0)
 			(effects
 				(font
@@ -4716,7 +4716,7 @@
 		(instances
 			(project "PowerPath"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "TP10")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -5183,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a58f5c-5b53-4bfa-af1c-ad84b32d2305")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 227.33 85.0899 0)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 			)
 			(project "PS-Buck"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c670e479-9032-4930-8709-ad4a3c228811")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 227.33 92.7099 0)
 			(effects
 				(font
@@ -5379,7 +5379,7 @@
 			)
 			(project "PS-Buck"
 				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
