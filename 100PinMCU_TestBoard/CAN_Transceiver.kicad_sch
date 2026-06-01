@@ -33625,15 +33625,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a48e634-5bd5-4dfe-8ab9-7d7a6bb550ba")
+			(uuid "7338b5ff-f6b1-496e-a903-61a01ef6ce60")
 		)
 		(pin "2"
-			(uuid "73993c74-ff08-4e31-93c9-48957e54e586")
+			(uuid "dc93706c-72d8-4fc4-9d09-9f742f57e210")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "C13")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -33714,15 +33714,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa4ed834-f442-4c00-9bf5-90d02170b164")
+			(uuid "c2aedfe3-11f0-461b-8c7d-dcf459a077b6")
 		)
 		(pin "2"
-			(uuid "c9e83255-530e-44dd-bb11-c61356dcc1f2")
+			(uuid "21f804ac-3533-4faf-8a7d-3385947a8f6e")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "C15")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -33786,15 +33786,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "44455f12-0a41-4654-808f-3790c1d7b2e8")
+			(uuid "eea49f7e-8d31-4fa8-8942-a4211f7ec47b")
 		)
 		(pin "2"
-			(uuid "007f9e4f-0292-4bb6-af92-2ac015fcff3d")
+			(uuid "10af7e30-11de-4d30-866f-f6ae02403848")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "JP8")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "JP5")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -33877,15 +33877,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "335fa4d3-1ddd-4364-ae3b-b3a84d7f46f5")
+			(uuid "b91274de-ae9f-41ba-ba78-c4cf97886d62")
 		)
 		(pin "2"
-			(uuid "7eafe32c-a83c-436d-91ad-f0861840308e")
+			(uuid "e17cacf2-a2b7-4c95-82fd-bd1f2ef62046")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "C14")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -33968,15 +33968,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d44ff3e-532a-4e90-a7a0-ab4a5906a787")
+			(uuid "4c3830a8-e393-4559-83da-279c2a78c4fb")
 		)
 		(pin "2"
-			(uuid "07e93965-5200-4ace-b5bb-76d775e7732e")
+			(uuid "3fd02138-02f3-4f9d-bd11-4a979e558224")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "C12")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -34057,15 +34057,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "76c101fd-ec3b-402d-b157-99aaec216e00")
+			(uuid "357e7171-2c59-4d2b-a1b7-97e898281c75")
 		)
 		(pin "2"
-			(uuid "fc1da015-2d89-45f9-be5e-ee36d5108b13")
+			(uuid "b8b3fce9-411f-4af4-9914-c157dc40913c")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "R24")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -34190,18 +34190,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "069ba6e1-c925-4e8a-bcef-53d9192ba8ed")
+			(uuid "e5871498-60d5-4bb3-9950-b11e46394535")
 		)
 		(pin "2"
-			(uuid "21b7cfee-59df-4fd9-99db-ea5110415668")
+			(uuid "645193f0-58c4-4370-9692-4f6f6e9a1657")
 		)
 		(pin "3"
-			(uuid "94b59a1d-205a-4cff-900e-6c5d014cfd58")
+			(uuid "ad06c383-8db0-4588-b070-678baea298a1")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "D15")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"
@@ -34326,32 +34326,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "9879225d-9913-4785-98e4-bb306abbe5a8")
+			(uuid "72c6fb16-d2c2-4c0f-b726-65cc1efd3db3")
 		)
 		(pin "4"
-			(uuid "428353dd-acf5-4ada-9511-a23a7ab75beb")
+			(uuid "1088e222-4a06-41f7-91b6-9deff0b19653")
 		)
 		(pin "7"
-			(uuid "fd11d641-ba4b-479d-b96a-c26e190b892b")
+			(uuid "96845b7e-0ab6-4ddb-9b23-e52ba3c39462")
 		)
 		(pin "6"
-			(uuid "ac14bdab-97c9-408b-8416-6cc6e24c8469")
+			(uuid "be0c65d6-43c1-42e1-a8b3-46b13039e7e0")
 		)
 		(pin "2"
-			(uuid "dfc8c785-a311-493e-8e59-5829468451a2")
+			(uuid "b294ebf2-29c4-4660-b0dd-0ddd61bb7c83")
 		)
 		(pin "3"
-			(uuid "5530ff78-dea1-4b75-8284-d7e37c4ba4d0")
+			(uuid "f7239db8-027b-4eff-8719-5ea85882aab8")
 		)
 		(pin "5"
-			(uuid "678ea9c6-71ef-4026-ac19-8e9707f3ddfe")
+			(uuid "2910f552-cbda-489d-a582-0a1d8dd84b43")
 		)
 		(pin "8"
-			(uuid "2e2d6625-3995-4495-92c3-29891811bf8b")
+			(uuid "6cda8632-36a1-48d2-8125-11eafb47a851")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
 					(reference "IC2")
 					(unit 1)
 				)
@@ -34433,15 +34433,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "53085813-f75b-44bc-9cea-90909c205bfd")
+			(uuid "70a10806-c55e-4722-9c61-ab98cff9a098")
 		)
 		(pin "2"
-			(uuid "83e7bd92-00b2-49fd-93b0-9f72f057d940")
+			(uuid "4f92d2cb-b0c8-4e6c-8808-4375f070141b")
 		)
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/7ebae12d-faed-4676-bea3-8e8b5526eaae"
-					(reference "R23")
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/0e3bffe1-e2aa-4b27-b0c7-28d8996d7add"
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/cbcec814-e1b6-4f49-9afe-3e964e4b41da"

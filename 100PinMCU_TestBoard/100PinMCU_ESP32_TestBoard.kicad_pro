@@ -784,15 +784,15 @@
     ],
     [
       "cbcec814-e1b6-4f49-9afe-3e964e4b41da",
-      "CAN_Transceiver"
+      "CAN_Transceiver_1"
     ],
     [
       "e2002d7a-6f47-446e-bd1b-89d63ee3a45c",
       "LDO"
     ],
     [
-      "7ebae12d-faed-4676-bea3-8e8b5526eaae",
-      "CAN_Transceiver1"
+      "0e3bffe1-e2aa-4b27-b0c7-28d8996d7add",
+      "CAN_Transceiver_2"
     ],
     [
       "840885ae-57ff-4136-b869-7c6178ab9d24",

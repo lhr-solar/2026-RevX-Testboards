@@ -2943,7 +2943,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2954,15 +2954,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2970,7 +2970,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3014,61 +3014,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3076,7 +3027,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -10426,7 +10377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 179.705 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10436,7 +10387,7 @@
 		(fields_autoplaced yes)
 		(uuid "19e1e812-f194-42ec-935a-18332a0de50b")
 		(property "Reference" "R27"
-			(at 182.245 105.4099 0)
+			(at 181.61 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,7 +10396,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 182.245 107.9499 0)
+			(at 181.61 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +10405,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 178.689 106.426 90)
+			(at 181.483 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,7 +10422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 179.705 106.68 0)
 			(effects
 				(font
@@ -11138,7 +11089,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 232.41 116.205 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11166,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 233.426 116.459 90)
+			(at 230.632 116.205 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 232.41 116.205 0)
 			(effects
 				(font
@@ -11277,7 +11228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 138.43 27.305 90)
 		(mirror x)
 		(unit 1)
@@ -11304,7 +11255,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 138.684 28.321 90)
+			(at 138.43 25.527 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 138.43 27.305 0)
 			(effects
 				(font
@@ -11559,7 +11510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 138.43 29.845 90)
 		(mirror x)
 		(unit 1)
@@ -11585,7 +11536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 138.684 30.861 90)
+			(at 138.43 28.067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 138.43 29.845 0)
 			(effects
 				(font
@@ -12020,7 +11971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R")
 		(at 226.695 99.06 90)
 		(mirror x)
 		(unit 1)
@@ -12048,7 +11999,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 226.949 100.076 90)
+			(at 226.695 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +12016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor"
 			(at 226.695 99.06 0)
 			(effects
 				(font
