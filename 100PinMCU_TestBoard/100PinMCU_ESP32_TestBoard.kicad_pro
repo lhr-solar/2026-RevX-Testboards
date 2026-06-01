@@ -779,15 +779,15 @@
       "Root"
     ],
     [
+      "9d06ac8a-c506-4496-a533-5f4a7c9f87a1",
+      "ESP32"
+    ],
+    [
       "cbcec814-e1b6-4f49-9afe-3e964e4b41da",
       "CAN_Transceiver"
     ],
     [
-      "6de86dd3-d8d3-418e-a19a-d7d3d1df75e3",
-      "ESP32"
-    ],
-    [
-      "ab199eb4-16ff-472f-a198-e557cdece1a6",
+      "e2002d7a-6f47-446e-bd1b-89d63ee3a45c",
       "LDO"
     ],
     [
@@ -797,6 +797,14 @@
     [
       "840885ae-57ff-4136-b869-7c6178ab9d24",
       "100PinMCU"
+    ],
+    [
+      "941bc526-dbd8-4c9d-9757-597be17aacce",
+      "USB-C"
+    ],
+    [
+      "8bbc384d-f945-48c6-90d4-966a04218661",
+      "Power_Mux"
     ]
   ],
   "text_variables": {}

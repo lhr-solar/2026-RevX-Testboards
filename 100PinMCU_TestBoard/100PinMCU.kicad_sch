@@ -10435,7 +10435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19e1e812-f194-42ec-935a-18332a0de50b")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 182.245 105.4099 0)
 			(effects
 				(font
@@ -10599,7 +10599,7 @@
 			)
 			(project "PS-100PinMCU"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11147,7 +11147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c601b2c-7ca2-4faf-9dba-f36563764a31")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 234.95 114.9349 0)
 			(effects
 				(font
@@ -11270,7 +11270,7 @@
 			)
 			(project "PS-100PinMCU"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11287,7 +11287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "413304d8-13e8-4ef9-9db8-2c954c5de5b0")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 138.43 21.59 90)
 			(effects
 				(font
@@ -11372,7 +11372,7 @@
 			)
 			(project ""
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -11568,7 +11568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62d54903-e3e2-4367-bd3f-52c6a14230a8")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 138.43 33.02 90)
 			(effects
 				(font
@@ -11653,7 +11653,7 @@
 			)
 			(project ""
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12029,7 +12029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88694e72-2a4d-45e4-a41e-db8fa26f4f29")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 225.806 94.996 90)
 			(effects
 				(font
@@ -12193,7 +12193,7 @@
 			)
 			(project "PS-100PinMCU"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13414,7 +13414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3d1f9f1-3933-41be-a847-6dcccd91f7d9")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 156.718 16.002 0)
 			(effects
 				(font
@@ -13505,7 +13505,7 @@
 			)
 			(project ""
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/840885ae-57ff-4136-b869-7c6178ab9d24"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)

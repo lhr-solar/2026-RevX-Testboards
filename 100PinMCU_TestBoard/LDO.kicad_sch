@@ -1867,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 168.275 68.5735 0)
 			(effects
 				(font
@@ -1931,27 +1931,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8982b71e-8e80-4d1a-b7c6-32345734f6a1")
+			(uuid "7dfe2aff-92c7-42cf-8940-40b81b4c0bbd")
 		)
 		(pin "2"
-			(uuid "aa1ead18-c899-4600-b544-441f9dedd605")
+			(uuid "1cce3d9f-56d0-48c7-8270-da9d75fee305")
 		)
 		(instances
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-			(project "LeaderSOMBreakout"
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
-					(reference "C?")
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2042,17 +2030,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "01c67387-58e5-48ff-81a2-8ef93a58300b")
+			(uuid "1a411536-74a7-401a-9b76-622a9bbb816e")
 		)
 		(instances
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "TP_3.3V1")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
 					(reference "TP_3.3V1")
 					(unit 1)
 				)
@@ -2069,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d371a-42b5-499b-b058-ab8f85cbe506")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 152.4 56.515 0)
 			(effects
 				(font
@@ -2149,24 +2131,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fcec839-284c-4ea8-a79f-01c06ecb6999")
+			(uuid "33967f4b-ca52-4d96-a834-2b3ff65792b0")
 		)
 		(pin "1"
-			(uuid "995de51d-9d43-4d1a-b9fe-0b2a61d94583")
+			(uuid "f15f5dfb-2ccb-4e20-a9c1-6491f68db7cb")
 		)
 		(pin "3"
-			(uuid "957fe355-65e9-43a7-85ca-76966301f183")
+			(uuid "4e9c3302-ae82-4b23-8412-5aee4461a107")
 		)
 		(instances
-			(project ""
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D14"
+		(property "Reference" "D9"
 			(at 133.604 57.15 0)
 			(effects
 				(font
@@ -2262,21 +2238,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "07949f2e-a083-4273-9382-0b69eba2a8a9")
+			(uuid "14234c7e-3700-4812-8bc5-cf1e04f76233")
 		)
 		(pin "2"
-			(uuid "92239788-8b6a-4474-afbc-db272288e943")
+			(uuid "8e8d8f3b-c1d0-47f1-932d-c5ed16ec2769")
 		)
 		(instances
-			(project ""
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "D14")
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 142.875 68.5735 0)
 			(effects
 				(font
@@ -2356,27 +2326,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c088605-de17-491b-a92c-48312011ee9b")
+			(uuid "3e857b88-1a47-4c4b-8be8-03816cf06912")
 		)
 		(pin "2"
-			(uuid "7a07c67e-64ee-4191-918c-55b9b7230005")
+			(uuid "e31ffd3a-4912-4db3-8fc1-745e0c925464")
 		)
 		(instances
-			(project "LDO"
-				(path "/8ff43370-8d10-4d2c-b1a3-81d1c2934a98"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "LDO"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/ab199eb4-16ff-472f-a198-e557cdece1a6"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e5b32072-3e3d-42a6-9d41-1a76d538e329/f3053c74-1ac6-4a33-80f3-565e8c4c2c7d"
-					(reference "C?")
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
+					(reference "C6")
 					(unit 1)
 				)
 			)
