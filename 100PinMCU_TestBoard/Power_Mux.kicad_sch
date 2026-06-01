@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pretty:TPS2117DRLR"
+		(property "Footprint" "UTSVT_Power:TPS2117DRLR"
 			(at 60.96 62.23 0)
 			(effects
 				(font
