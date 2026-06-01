@@ -1132,6 +1132,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3072,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 154.94) (xy 167.64 154.94)
+			(xy 173.99 160.02) (xy 167.64 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 149.86) (xy 184.15 149.86)
+			(xy 167.64 154.94) (xy 193.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3512,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 154.94) (xy 181.61 154.94)
+			(xy 181.61 160.02) (xy 193.04 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4152,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 152.4) (xy 167.64 152.4)
+			(xy 173.99 157.48) (xy 167.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4262,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 152.4) (xy 181.61 152.4)
+			(xy 181.61 157.48) (xy 193.04 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4432,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 184.15 147.32)
+			(xy 167.64 152.4) (xy 193.04 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7540,7 @@
 		(uuid "0f3dec2f-2e32-4618-a3c9-a137bf740264")
 	)
 	(label "SWCLK"
-		(at 167.64 152.4 180)
+		(at 167.64 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7348,6 +7548,16 @@
 			(justify right bottom)
 		)
 		(uuid "217e54e7-5f66-4380-8c3d-68e405461a18")
+	)
+	(label "SWDIO_"
+		(at 184.15 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f157365-a1f8-4ba2-b5de-89750db64592")
 	)
 	(label "CAN_RX{slash}BOOT0"
 		(at 271.78 152.4 180)
@@ -7383,7 +7593,7 @@
 		)
 	)
 	(label "SWDIO"
-		(at 167.64 154.94 180)
+		(at 167.64 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7401,6 +7611,16 @@
 			(justify right bottom)
 		)
 		(uuid "c66c1055-deb3-4185-a660-d2a30e950484")
+	)
+	(label "SWCLK_"
+		(at 184.15 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9eeaa46-3516-4e63-b6b8-81aaf435fcdc")
 	)
 	(label "SWDIO"
 		(at 24.13 71.12 0)
@@ -7691,7 +7911,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 180.34 149.86 180)
+		(at 167.64 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7999,7 +8219,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 180.34 147.32 180)
+		(at 167.64 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8629,34 +8849,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 189.23 149.86 0)
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 175.26 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "36f98d3b-73fe-4ae3-996a-675e7d85fa0a")
-		(property "Reference" "J4"
-			(at 189.992 144.272 0)
+		(uuid "367e8ab9-e84e-478e-8e61-676ff23fe12f")
+		(property "Reference" "J5"
+			(at 176.784 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SWD"
-			(at 191.77 152.3999 0)
+			(at 176.784 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 189.23 149.86 0)
+		(property "Footprint" ""
+			(at 175.26 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8883,82 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 149.86 0)
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "70ce1796-17e8-412c-a30c-2c47cc040886")
+		)
+		(pin "1"
+			(uuid "404ddf97-e6dd-462d-961c-579df392ab49")
+		)
+		(pin "2"
+			(uuid "6311b83e-e3bc-4771-9025-2620c7121e98")
+		)
+		(pin "4"
+			(uuid "a94ebc0f-66c7-4979-8a5e-0ab6f665bcbc")
+		)
+		(instances
+			(project ""
+				(path "/9cc459e0-f86d-41bb-8426-cce80d92e44c/f864dc39-a41c-4593-ac23-dc35fa5d1c83"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 198.12 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f98d3b-73fe-4ae3-996a-675e7d85fa0a")
+		(property "Reference" "J4"
+			(at 199.136 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SWD"
+			(at 200.66 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 198.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8967,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 149.86 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8998,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 152.4 90)
+		(at 177.8 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8713,7 +9006,7 @@
 		(dnp no)
 		(uuid "413304d8-13e8-4ef9-9db8-2c954c5de5b0")
 		(property "Reference" "R15"
-			(at 172.974 151.384 90)
+			(at 172.974 156.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +9014,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 181.864 151.384 90)
+			(at 181.864 156.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +9022,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 177.8 154.178 90)
+			(at 177.8 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +9031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 152.4 0)
+			(at 177.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +9040,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 152.4 0)
+			(at 177.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +9049,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 177.8 152.4 90)
+			(at 177.8 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +9058,7 @@
 			)
 		)
 		(property "P/N" "FRC0603F22R0TS"
-			(at 177.8 152.4 90)
+			(at 177.8 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9181,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 154.94 90)
+		(at 177.8 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8896,7 +9189,7 @@
 		(dnp no)
 		(uuid "62d54903-e3e2-4367-bd3f-52c6a14230a8")
 		(property "Reference" "R16"
-			(at 173.228 153.924 90)
+			(at 173.228 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +9197,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 182.118 153.924 90)
+			(at 182.118 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +9205,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 177.8 156.718 90)
+			(at 177.8 161.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +9214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 154.94 0)
+			(at 177.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +9223,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 154.94 0)
+			(at 177.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +9232,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 177.8 154.94 90)
+			(at 177.8 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9241,7 @@
 			)
 		)
 		(property "P/N" "FRC0603F22R0TS"
-			(at 177.8 154.94 90)
+			(at 177.8 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
