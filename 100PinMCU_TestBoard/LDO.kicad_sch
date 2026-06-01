@@ -1867,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b102e1c-01e8-4653-92eb-2045626b696c")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 168.275 68.5735 0)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2051,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d371a-42b5-499b-b058-ab8f85cbe506")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 152.4 56.515 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adbd74cf-e28f-4fcb-b636-d956609f6a8d")
-		(property "Reference" "D9"
+		(property "Reference" "D12"
 			(at 133.604 57.15 0)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
-					(reference "D9")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2262,7 +2262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f96e3358-3125-41a4-8f93-006fa6c5f6b9")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 142.875 68.5735 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/e2002d7a-6f47-446e-bd1b-89d63ee3a45c"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)

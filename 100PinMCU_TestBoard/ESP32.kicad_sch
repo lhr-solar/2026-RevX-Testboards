@@ -4921,7 +4921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0041f581-d9ed-4cd9-930b-3b99fae5bfb4")
-		(property "Reference" "R36"
+		(property "Reference" "R17"
 			(at 200.66 29.21 90)
 			(effects
 				(font
@@ -4992,7 +4992,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R36")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5007,7 +5007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04687e9b-733c-4784-bf46-f1efd8225741")
-		(property "Reference" "C30"
+		(property "Reference" "C1"
 			(at 74.168 78.486 0)
 			(effects
 				(font
@@ -5079,7 +5079,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "C30")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f771794-7be9-453d-8631-63fa0bd09857")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 158.3533 78.74 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12774df1-2ae9-4af3-8c69-8237aaab8334")
-		(property "Reference" "C32"
+		(property "Reference" "C3"
 			(at 145.034 72.644 0)
 			(effects
 				(font
@@ -5407,7 +5407,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "C32")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "135c272f-e2be-45da-a4d5-42d055c0a6eb")
-		(property "Reference" "D19"
+		(property "Reference" "D7"
 			(at 74.93 135.89 90)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D19")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0c0e9f-7b4b-4376-89a6-4e4d33ae0179")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR022"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR033")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21122e3c-7889-446a-abc7-86068769aaaf")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR021"
 			(at 43.18 146.05 0)
 			(effects
 				(font
@@ -5640,7 +5640,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR032")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50417809-3992-44f1-96ce-bec2898da493")
-		(property "Reference" "R37"
+		(property "Reference" "R18"
 			(at 200.66 42.418 90)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R37")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5197cf58-0429-4f98-a762-379675db21e4")
-		(property "Reference" "C31"
+		(property "Reference" "C2"
 			(at 135.636 72.644 0)
 			(effects
 				(font
@@ -5813,7 +5813,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "C31")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5828,7 +5828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "619e17dc-5151-48c2-a7b6-6cddb36e1752")
-		(property "Reference" "D22"
+		(property "Reference" "D10"
 			(at 211.074 42.164 0)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D22")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77a69ed8-e83a-4348-bb2d-005fec6c80e3")
-		(property "Reference" "SW4"
+		(property "Reference" "SW2"
 			(at 167.64 26.416 0)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "SW4")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6007,7 +6007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8eef51c0-b3d2-46e3-8751-e45f1eabc7b6")
-		(property "Reference" "R34"
+		(property "Reference" "R15"
 			(at 197.104 101.854 90)
 			(effects
 				(font
@@ -6080,7 +6080,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R34")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962c34ab-2417-45df-acc8-1ad04d1e0df0")
-		(property "Reference" "R32"
+		(property "Reference" "R13"
 			(at 107.95 29.21 90)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R32")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96aad44c-9af0-479e-8895-cbf20d3c84d8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR025"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -6232,7 +6232,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR036")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1c4537b-1684-4f34-ba52-976e1871aced")
-		(property "Reference" "R31"
+		(property "Reference" "R12"
 			(at 50.038 81.28 90)
 			(effects
 				(font
@@ -6318,7 +6318,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R31")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6b78804-2cc3-4c3e-9490-b2985db4900d")
-		(property "Reference" "R33"
+		(property "Reference" "R14"
 			(at 151.384 25.654 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R33")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6422,7 +6422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b29a9918-0810-4ec0-be85-846e36560a53")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR023"
 			(at 156.21 72.39 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR034")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b44a5da0-3049-4132-aa7c-da042f2bc9de")
-		(property "Reference" "D18"
+		(property "Reference" "D6"
 			(at 61.722 66.04 0)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D18")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b550b4c7-248b-4b6c-a575-19b870c59b16")
-		(property "Reference" "C33"
+		(property "Reference" "C4"
 			(at 153.924 35.814 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "C33")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b583424c-1535-4a6f-a457-51b6d389a9ee")
-		(property "Reference" "R30"
+		(property "Reference" "R11"
 			(at 50.292 76.2 90)
 			(effects
 				(font
@@ -6730,7 +6730,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R30")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb3955b-fbab-4300-bcac-38e97800484a")
-		(property "Reference" "J10"
+		(property "Reference" "J7"
 			(at 31.75 64.77 0)
 			(effects
 				(font
@@ -6870,7 +6870,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -6885,7 +6885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1ddf2a6-01d6-4f63-b5ed-c096051ff03e")
-		(property "Reference" "D21"
+		(property "Reference" "D9"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D21")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6979,7 +6979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d65da091-0a9f-4378-8d04-483044eacc54")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 117.348 26.416 0)
 			(effects
 				(font
@@ -7043,7 +7043,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "SW3")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7059,7 +7059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e847e3ba-5e6b-47b8-9619-ec6dd81cbd85")
-		(property "Reference" "R35"
+		(property "Reference" "R16"
 			(at 200.66 19.05 90)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "R35")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7145,7 +7145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4d62e99-cf15-4ecd-889b-c1e234b8bbd9")
-		(property "Reference" "D20"
+		(property "Reference" "D8"
 			(at 210.82 17.78 0)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D20")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f927a20c-3345-45de-8575-404d7c8741d3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR026"
 			(at 208.28 109.22 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR037")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7305,7 +7305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe13fe5b-401d-437b-9aae-c2484d1b92e1")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR024"
 			(at 157.48 26.67 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 		(instances
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "#PWR035")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
