@@ -927,6 +927,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB_PD_Symbols:TPD2EUSB30DRTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TPD2EUSB30DRTR"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "UTSVT_ICs:TPD2EUSB30DRTR"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "kicad-embed://sf-000234749.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Texas Instruments TPD2EUSB30DRTR Dual Bi-Directional TVS Diode Array, 45W peak, 3-Pin SOT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TPD2EUSB30DRTR"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2EUSB30DRTR?qs=%2Fqzd9s%252BcLd6bPJi5HXCDvw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "P/N" "TPD2EUSB30DRTR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C97502"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD2EUSB30DRTR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1784,344 +1963,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "utsvt_ics:SP0503BAH"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D8"
-				(at 6.35 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SP0503BAHT"
-				(at 6.35 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-				(at 5.715 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "576-SP0503BAHTG "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "SP0503BAHTG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?143*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SP0503BAH_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SP0503BAH_0_1"
-				(rectangle
-					(start -4.445 2.54)
-					(end 4.445 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP0503BAH_1_1"
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3426,6 +3267,18 @@
 		)
 		(uuid "09cfc17b-901f-4c13-8c3c-2655705c20f6")
 	)
+	(text "5.5V working\n7V breakdown\n8V clamping"
+		(exclude_from_sim no)
+		(at 71.12 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "0e84ce2f-1475-47ee-a17b-43218cc08656")
+	)
 	(text "From MUX design block"
 		(exclude_from_sim no)
 		(at 28.448 143.002 0)
@@ -3847,13 +3700,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 83.82 144.78)
+			(xy 57.15 144.78) (xy 64.77 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "209305e2-182c-4202-8500-2ad4a0ad592a")
+		(uuid "23e4f3ed-94f2-477b-93c8-32342fc0e3cb")
 	)
 	(wire
 		(pts
@@ -3864,16 +3717,6 @@
 			(type default)
 		)
 		(uuid "263a6bb3-c6d5-4131-af66-179d0e7d36fd")
-	)
-	(wire
-		(pts
-			(xy 60.96 144.78) (xy 69.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c4866e-7077-416d-a193-97579d87f52d")
 	)
 	(wire
 		(pts
@@ -3904,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "2a80a529-2dda-4a52-bfd0-63a33294c0fa")
-	)
-	(wire
-		(pts
-			(xy 60.96 147.32) (xy 69.85 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d296330-eb70-4ff2-9da0-22e934a30629")
 	)
 	(wire
 		(pts
@@ -3974,16 +3807,6 @@
 			(type default)
 		)
 		(uuid "359e8d0f-138c-4235-b278-3e6efdd746ed")
-	)
-	(wire
-		(pts
-			(xy 60.96 142.24) (xy 69.85 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c1ed8d-555d-4e86-820e-ea4407bd6f56")
 	)
 	(wire
 		(pts
@@ -4167,6 +3990,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 142.24) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5d58e5-d7f7-4d07-a023-2c7f5e180cd7")
+	)
+	(wire
+		(pts
 			(xy 139.7 71.12) (xy 139.7 69.85)
 		)
 		(stroke
@@ -4214,16 +4047,6 @@
 			(type default)
 		)
 		(uuid "94b9aaff-bcd1-43dc-9451-1bb7b6dc5004")
-	)
-	(wire
-		(pts
-			(xy 83.82 144.78) (xy 83.82 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97df8519-5937-417e-91c2-c1551bfa3a0f")
 	)
 	(wire
 		(pts
@@ -4284,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "a6acedcb-8980-4ae6-90b7-8abc40608ee0")
+	)
+	(wire
+		(pts
+			(xy 57.15 142.24) (xy 64.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdb48e2-d832-489d-84ea-c71ffd785364")
 	)
 	(wire
 		(pts
@@ -4545,6 +4378,16 @@
 		)
 		(uuid "059ffaa3-a723-4090-8450-f17a579024dc")
 	)
+	(label "USB_D+"
+		(at 57.15 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0992260d-1c06-4054-9be8-c27189c705fb")
+	)
 	(label "BOOT"
 		(at 97.79 34.29 0)
 		(effects
@@ -4585,15 +4428,15 @@
 		)
 		(uuid "57dc78c8-fd78-4d3b-b3f1-cf8b9c89057c")
 	)
-	(label "USB_D+"
-		(at 60.96 147.32 0)
+	(label "USB_D-"
+		(at 57.15 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8692f3dd-c47c-47ac-8be6-343f6bb0472d")
+		(uuid "7c65a437-57ca-4ba4-8a45-56d919dcfa1e")
 	)
 	(label "LED1"
 		(at 194.31 121.92 180)
@@ -4604,16 +4447,6 @@
 			(justify right bottom)
 		)
 		(uuid "8b112375-3d6c-4502-8201-8207794f56a0")
-	)
-	(label "USB_D-"
-		(at 60.96 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99514332-285a-4f36-a5ae-c620307258ef")
 	)
 	(label "ESP_RESET"
 		(at 142.24 33.02 0)
@@ -4654,16 +4487,6 @@
 			(justify right bottom)
 		)
 		(uuid "ce72ab14-330b-4b51-9033-79bf66d9903a")
-	)
-	(label "VBUSB"
-		(at 60.96 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df709b39-3865-47d8-9c9f-9411a7519dad")
 	)
 	(label "USB_D-"
 		(at 58.42 87.63 180)
@@ -4862,6 +4685,17 @@
 		)
 		(uuid "f1dcab49-59d0-4c16-92b2-7f160cb685c2")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 92.71 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f26d71d6-480c-414d-b087-ef46bdc0eace")
+	)
 	(hierarchical_label "ESP_GPIO4"
 		(shape bidirectional)
 		(at 196.85 119.38 0)
@@ -4883,17 +4717,6 @@
 			(justify right)
 		)
 		(uuid "f61634ed-2cca-41d8-a8bb-873d5bec6e3f")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 83.82 148.59 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7b70221-3da0-41c6-ac0d-701459458f33")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -5403,108 +5226,6 @@
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "utsvt_ics:SP0503BAH")
-		(at 74.93 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "135c272f-e2be-45da-a4d5-42d055c0a6eb")
-		(property "Reference" "D7"
-			(at 74.93 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SP0503BAHT"
-			(at 74.93 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 76.2 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://Littelfuse-TVS-Diode-Array-SP05-Datasheet.pdf"
-			(at 71.755 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-SP0503BAHTG "
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "SP0503BAHTG"
-			(at 74.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C7074"
-			(at 74.93 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "aff79f84-caa0-4056-9fff-a4b74809dd33")
-		)
-		(pin "4"
-			(uuid "d66aa87d-941d-43f0-bf02-c8459ad94439")
-		)
-		(pin "1"
-			(uuid "ea247539-249b-441b-84a7-88512303c572")
-		)
-		(pin "2"
-			(uuid "4c5f2c01-911b-44fb-8736-72f99f3d46de")
-		)
-		(instances
-			(project "100PinMCU_ESP32_TestBoard"
-				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6459,6 +6180,138 @@
 			(project "100PinMCU_ESP32_TestBoard"
 				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB_PD_Symbols:TPD2EUSB30DRTR")
+		(at 64.77 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4ec11a2-9646-47b0-a3d1-f7cfefb86471")
+		(property "Reference" "D7"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD2EUSB30DRTR"
+			(at 77.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_ICs:TPD2EUSB30DRTR"
+			(at 86.36 237.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://sf-000234749.pdf"
+			(at 86.36 337.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Texas Instruments TPD2EUSB30DRTR Dual Bi-Directional TVS Diode Array, 45W peak, 3-Pin SOT"
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at 86.36 537.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPD2EUSB30DRTR"
+			(at 86.36 637.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2EUSB30DRTR?qs=%2Fqzd9s%252BcLd6bPJi5HXCDvw%3D%3D"
+			(at 86.36 737.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 86.36 837.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPD2EUSB30DRTR"
+			(at 86.36 937.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C97502"
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09a97d54-bf35-4e89-b777-75b7aafe9e05")
+		)
+		(pin "1"
+			(uuid "c9cd2a48-db57-45c7-a15f-64062e058406")
+		)
+		(pin "3"
+			(uuid "20e78fa0-94cb-43d6-8d78-100b7d0a18e6")
+		)
+		(instances
+			(project "100PinMCU_ESP32_TestBoard"
+				(path "/abcdaa41-14f3-4587-9aac-314b09095246/9d06ac8a-c506-4496-a533-5f4a7c9f87a1"
+					(reference "D7")
 					(unit 1)
 				)
 			)
