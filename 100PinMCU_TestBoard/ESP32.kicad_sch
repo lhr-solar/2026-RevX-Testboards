@@ -4378,16 +4378,6 @@
 		)
 		(uuid "059ffaa3-a723-4090-8450-f17a579024dc")
 	)
-	(label "USB_D+"
-		(at 57.15 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0992260d-1c06-4054-9be8-c27189c705fb")
-	)
 	(label "BOOT"
 		(at 97.79 34.29 0)
 		(effects
@@ -4428,16 +4418,6 @@
 		)
 		(uuid "57dc78c8-fd78-4d3b-b3f1-cf8b9c89057c")
 	)
-	(label "USB_D-"
-		(at 57.15 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c65a437-57ca-4ba4-8a45-56d919dcfa1e")
-	)
 	(label "LED1"
 		(at 194.31 121.92 180)
 		(effects
@@ -4447,6 +4427,16 @@
 			(justify right bottom)
 		)
 		(uuid "8b112375-3d6c-4502-8201-8207794f56a0")
+	)
+	(label "USB_D+"
+		(at 57.15 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cfa90f6-53ef-49c8-a1d1-d8d98482aa44")
 	)
 	(label "ESP_RESET"
 		(at 142.24 33.02 0)
@@ -4487,6 +4477,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce72ab14-330b-4b51-9033-79bf66d9903a")
+	)
+	(label "USB_D-"
+		(at 57.15 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d172b4ec-d228-44da-ab68-6b05efd1d21e")
 	)
 	(label "USB_D-"
 		(at 58.42 87.63 180)
