@@ -48582,6 +48582,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "EMK107SD103KA-T"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "816aa9b1-27e4-4872-93e3-95afb7ebca4b")
 		)
@@ -48630,7 +48639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 50.8 0)
 			(effects
 				(font
