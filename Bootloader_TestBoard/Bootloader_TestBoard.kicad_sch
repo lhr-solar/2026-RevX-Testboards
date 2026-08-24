@@ -4043,6 +4043,16 @@
 		)
 		(uuid "cb41d76c-75a6-4848-81ac-5f346e5a1098")
 	)
+	(text "3V3 testpoint on LDO scheet"
+		(exclude_from_sim no)
+		(at 205.74 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df7fed3b-1fbb-4dfd-af40-6988db4b2f47")
+	)
 	(text "Debug LED\n"
 		(exclude_from_sim no)
 		(at 156.21 153.67 0)
@@ -4601,23 +4611,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 149.86) (xy 194.31 152.4)
+			(xy 194.31 139.7) (xy 194.31 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5fbad59c-ecf9-466e-a290-22a987c591e7")
-	)
-	(wire
-		(pts
-			(xy 196.85 140.97) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e7ca5f-7f56-47a4-bf5f-5d4d2f027711")
 	)
 	(wire
 		(pts
@@ -5111,16 +5111,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 138.43) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4120d5d-c0df-4425-b77f-7ab1e54272a9")
-	)
-	(wire
-		(pts
 			(xy 76.2 38.1) (xy 80.01 38.1)
 		)
 		(stroke
@@ -5341,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 149.86) (xy 194.31 149.86)
+			(xy 196.85 139.7) (xy 194.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5728,85 +5718,6 @@
 			(justify left bottom)
 		)
 		(uuid "fafcde90-5eed-4f1b-af6e-280c06265d7b")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1098dea7-3541-4a6f-9956-09c395c31442")
-		(property "Reference" "TP2"
-			(at 201.93 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 201.93 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
-			(at 196.85 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 196.85 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48827301-fe4c-4964-ab63-1eafd23f0333")
-		)
-		(instances
-			(project "Bootloader_TestBoard"
-				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -7052,84 +6963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f14afab-5012-4711-9942-defd6a05256f")
-		(property "Reference" "#PWR020"
-			(at 194.31 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 194.31 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7417de5c-a88f-440c-bb59-48aca22b0660")
-		)
-		(instances
-			(project "Bootloader_TestBoard"
-				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 57.15 72.39 0)
 		(unit 1)
@@ -7453,7 +7286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 152.4 0)
+		(at 194.31 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7464,7 +7297,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aef1b4e-2c65-47c2-ac6c-f9fc885efddc")
 		(property "Reference" "#PWR021"
-			(at 194.31 158.75 0)
+			(at 194.31 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7475,7 +7308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 157.48 0)
+			(at 194.31 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7485,7 +7318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 152.4 0)
+			(at 194.31 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 152.4 0)
+			(at 194.31 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7507,7 +7340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 152.4 0)
+			(at 194.31 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7923,7 +7756,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 196.85 149.86 270)
+		(at 196.85 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7934,7 +7767,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c52424c-3643-4355-884f-1333fef76215")
 		(property "Reference" "TP3"
-			(at 201.93 148.5899 90)
+			(at 201.93 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7945,7 +7778,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 201.93 151.1299 90)
+			(at 201.93 140.9699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7955,8 +7788,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
-			(at 196.85 154.94 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 196.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 154.94 0)
+			(at 196.85 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +7811,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 196.85 149.86 0)
+			(at 196.85 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,7 +10332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 196.85 135.89 0)
 			(hide yes)
 			(show_name no)

@@ -5,280 +5,6 @@
 	(uuid "78023132-f42b-4c51-8ee1-394dca303f00")
 	(paper "A4")
 	(lib_symbols
-		(symbol "100PinMCU:SWD_Header_02x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SWD_Header_02x02"
-				(at 1.778 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "878320406:CONN04_878320406_MOL"
-				(at -0.254 6.604 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "kicad-embed://Conn_02x02_Odd_Even.pdf"
-				(at 1.016 10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x02"
-				(at 1.016 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "P/N" "0878320406"
-				(at 0 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LSCS P/N" "C17492485"
-				(at 11.938 4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SWD_Header_02x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 5.334 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.254)
-					(end 0 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.54)
-					(end 0 -2.794)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.62)
-					(end 0 -7.874)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 -5.334)
-					(end -1.27 -5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "3V3\n\n"
-					(at 0.508 -0.762 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-						(justify left)
-					)
-				)
-				(text "GND\n"
-					(at 0.508 -2.54 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-						(justify left)
-					)
-				)
-				(text "SWCLK"
-					(at 0.508 -5.08 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-						(justify left)
-					)
-				)
-				(text "SWDIO"
-					(at 0.508 -7.62 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-						(justify left)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3030,18 +2756,6 @@
 		)
 		(uuid "637b9fe1-fb17-4087-978a-711656a2b06e")
 	)
-	(rectangle
-		(start 229.87 86.36)
-		(end 270.51 113.03)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "ed2c2313-595f-4bdd-8b04-db5a33a73b46")
-	)
 	(text "Reset BTN\n"
 		(exclude_from_sim no)
 		(at 189.611 80.264 0)
@@ -3172,16 +2886,6 @@
 			)
 		)
 		(uuid "9aa18a25-0377-4061-add4-e3a23aa11454")
-	)
-	(text "Serial Wire Communication"
-		(exclude_from_sim no)
-		(at 250.19 83.82 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "9eed3750-cf1c-48f7-bb8e-a059d7c19474")
 	)
 	(text "VDDA Separation\n"
 		(exclude_from_sim no)
@@ -3647,16 +3351,6 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 100.33) (xy 237.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491c4f0a-109b-493b-ba0a-f964e262aba5")
-	)
-	(wire
-		(pts
 			(xy 0.0762 0.0762) (xy 2.6162 0.0762)
 		)
 		(stroke
@@ -3797,16 +3491,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 100.33) (xy 247.015 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3d460a-5da3-45ae-9f70-f39c837d1a86")
-	)
-	(wire
-		(pts
 			(xy 73.66 29.21) (xy 73.66 31.75)
 		)
 		(stroke
@@ -3834,16 +3518,6 @@
 			(type default)
 		)
 		(uuid "7e5f4906-294f-43f3-9447-e1092be9eb1d")
-	)
-	(wire
-		(pts
-			(xy 251.46 97.79) (xy 256.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83644fc7-c2a3-4267-be08-c9eb8498644c")
 	)
 	(wire
 		(pts
@@ -3987,16 +3661,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 95.25) (xy 256.54 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeb1a489-1c0f-4253-8b8a-96b812a8f25a")
-	)
-	(wire
-		(pts
 			(xy 105.41 29.21) (xy 105.41 31.75)
 		)
 		(stroke
@@ -4114,16 +3778,6 @@
 			(type default)
 		)
 		(uuid "bfdc4b51-4b82-4be7-abdb-bacb3a00e53e")
-	)
-	(wire
-		(pts
-			(xy 256.54 102.87) (xy 247.015 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01c902f-4fdb-4f58-9aaf-2dd97f0f11f2")
 	)
 	(wire
 		(pts
@@ -4284,16 +3938,6 @@
 			(type default)
 		)
 		(uuid "efd3f243-89c0-4ba9-9893-345c15f5563b")
-	)
-	(wire
-		(pts
-			(xy 239.395 102.87) (xy 237.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87b92cd-8b2e-41ce-ac0b-de6d5bccd88e")
 	)
 	(wire
 		(pts
@@ -7038,26 +6682,6 @@
 			"sagFAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "SWCLK"
-		(at 237.49 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9145e9bc-f83e-429c-97fe-6521dd6614e9")
-	)
-	(label "SWDIO"
-		(at 237.49 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff56b7db-3d65-42a5-800f-ee10eddccf73")
-	)
 	(hierarchical_label "PB13"
 		(shape bidirectional)
 		(at 124.46 119.38 0)
@@ -7299,17 +6923,6 @@
 			(justify left)
 		)
 		(uuid "2eb82ae2-97c2-4391-9e43-a7717740c6a8")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 251.46 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30a4f5eb-0ce1-43cb-a776-37795dc3116c")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -8026,17 +7639,6 @@
 		)
 		(uuid "d81042d4-68da-435f-84f5-b36e8330a142")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 251.46 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8211155-2398-4bab-8134-bcfea089f73a")
-	)
 	(hierarchical_label "PA15"
 		(shape bidirectional)
 		(at 124.46 82.55 0)
@@ -8412,7 +8014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:TL3365AF180QG"
+		(property "Footprint" "Project:TL3365AF180QG"
 			(at 215.265 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9692,119 +9294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 243.205 102.87 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65bbdf68-a7d0-446f-8f66-5df0a1018790")
-		(property "Reference" "R13"
-			(at 243.205 106.045 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 243.205 108.585 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 243.459 103.886 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.205 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 243.205 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C2930077"
-			(at 243.205 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS P/N" ""
-			(at 243.205 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "FRC0603F22R0TS"
-			(at 243.205 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02fc805c-06c9-4337-91f3-72060ca5eb82")
-		)
-		(pin "2"
-			(uuid "a18160a0-ad06-45c7-bb65-ef6df17078bd")
-		)
-		(instances
-			(project "Bootloader_TestBoard"
-				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/e4caf007-92bb-4b24-8786-7cda9bdbd753"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 29.21 52.07 90)
 		(unit 1)
@@ -10275,120 +9764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 243.205 100.33 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99755582-61b4-4366-8e54-50784c7a0479")
-		(property "Reference" "R12"
-			(at 243.205 94.615 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 243.205 97.155 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 243.459 101.346 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.205 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 243.205 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C2930077"
-			(at 243.205 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS P/N" ""
-			(at 243.205 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "FRC0603F22R0TS"
-			(at 243.205 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab7bcc60-1f8a-4301-87ff-7bcabcc7f3bb")
-		)
-		(pin "2"
-			(uuid "d8d3d08b-9527-4a1d-a058-67d19895bcf1")
-		)
-		(instances
-			(project "Bootloader_TestBoard"
-				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/e4caf007-92bb-4b24-8786-7cda9bdbd753"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 179.07 30.48 0)
 		(unit 1)
@@ -10593,124 +9968,6 @@
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/e4caf007-92bb-4b24-8786-7cda9bdbd753"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "100PinMCU:SWD_Header_02x02")
-		(at 261.62 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a493e275-fcd8-4f45-ba28-392f97d43601")
-		(property "Reference" "J2"
-			(at 261.493 89.027 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWD_Header"
-			(at 261.493 91.567 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LHRS_Connectors:SWD_Conn"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "kicad-embed://Conn_02x02_Odd_Even.pdf"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "0878320406"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C17492485"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS P/N" "C17492485"
-			(at 261.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c43da819-ced4-429f-a43a-b8927b288b9c")
-		)
-		(pin "1"
-			(uuid "5fcf7b31-5d4d-4fa8-8e6c-5d456063c687")
-		)
-		(pin "4"
-			(uuid "3ce7ca84-2aa6-4a42-9e44-54d530b77ab2")
-		)
-		(pin "3"
-			(uuid "b7d3b8a7-4112-499d-a04f-45850fe64e03")
-		)
-		(instances
-			(project "Bootloader_TestBoard"
-				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/e4caf007-92bb-4b24-8786-7cda9bdbd753"
-					(reference "J2")
 					(unit 1)
 				)
 			)
