@@ -3331,16 +3331,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 133.35 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60629ac-6ba8-41b4-93d3-897c5faef3da")
-	)
-	(wire
-		(pts
 			(xy 183.642 107.442) (xy 183.642 109.982)
 		)
 		(stroke
@@ -3548,16 +3538,6 @@
 			(type default)
 		)
 		(uuid "e7d8fa04-5250-4710-a7fe-1b2bc29f9672")
-	)
-	(wire
-		(pts
-			(xy 124.46 67.31) (xy 133.35 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d9678d-a989-4906-b72a-445930cf64f8")
 	)
 	(wire
 		(pts
@@ -6426,16 +6406,6 @@
 		(uuid "60844254-cb4b-4770-a4d3-35170db1684f")
 	)
 	(label "SWCLK"
-		(at 133.35 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89fadda0-19ed-480a-90f2-15df7ada5ed9")
-	)
-	(label "SWCLK"
 		(at 224.79 105.41 180)
 		(effects
 			(font
@@ -6444,16 +6414,6 @@
 			(justify right bottom)
 		)
 		(uuid "ce04f832-a411-46ad-bc7c-c1bd7f575988")
-	)
-	(label "SWDIO"
-		(at 133.35 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec0fbf3c-b1ea-4514-8536-73a27ec32faa")
 	)
 	(hierarchical_label "PB14"
 		(shape bidirectional)
@@ -6564,6 +6524,17 @@
 			(justify right)
 		)
 		(uuid "3d0987ef-6279-45a9-a2c7-32722ef41e7f")
+	)
+	(hierarchical_label "SWCLK"
+		(shape bidirectional)
+		(at 124.46 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e81b444-c2d4-4da0-9867-721b2519b792")
 	)
 	(hierarchical_label "PB1"
 		(shape bidirectional)
@@ -6729,6 +6700,17 @@
 			(justify right)
 		)
 		(uuid "6aea89c6-c674-454b-9f53-ec39b4dd088c")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 124.46 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75e68b43-02ce-4f71-a330-8ac7791ec778")
 	)
 	(hierarchical_label "PB12"
 		(shape bidirectional)
@@ -9230,7 +9212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:48PinMCU"
+		(property "Footprint" "Project:48PinMCU"
 			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)

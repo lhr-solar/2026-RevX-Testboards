@@ -3657,13 +3657,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 133.35 77.47)
+			(xy 0.0762 0.0762) (xy 2.6162 0.0762)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49d2a33b-567a-46b6-99a1-8c6bb9602815")
+		(uuid "4a68db2b-73a8-41ad-803f-12c49ae89b1f")
 	)
 	(wire
 		(pts
@@ -3744,16 +3744,6 @@
 			(type default)
 		)
 		(uuid "68df7a0d-5673-4a01-a8ac-746953fb4e22")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 133.35 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c0d6e38-c8d6-4a62-be73-31a5f5f9a912")
 	)
 	(wire
 		(pts
@@ -7049,16 +7039,6 @@
 		)
 	)
 	(label "SWCLK"
-		(at 133.35 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b08f02e-8593-43bd-9d27-8a5391916a9d")
-	)
-	(label "SWCLK"
 		(at 237.49 100.33 180)
 		(effects
 			(font
@@ -7067,16 +7047,6 @@
 			(justify right bottom)
 		)
 		(uuid "9145e9bc-f83e-429c-97fe-6521dd6614e9")
-	)
-	(label "SWDIO"
-		(at 133.35 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a821129f-0bbf-4915-abf5-ed866ff3ab27")
 	)
 	(label "SWDIO"
 		(at 237.49 102.87 180)
@@ -7418,6 +7388,17 @@
 		)
 		(uuid "39070e8a-80bf-47d8-9b3f-6d0b3f73296e")
 	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 124.46 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "398f6f33-6e59-43aa-b8ca-708fcfccc8d3")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 200.025 110.49 270)
@@ -7527,6 +7508,17 @@
 			(justify right)
 		)
 		(uuid "5e246e82-42d4-419c-94ec-bd7e7524b733")
+	)
+	(hierarchical_label "SWCLK"
+		(shape bidirectional)
+		(at 124.46 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e94d864-75c4-48ba-9d47-f5d2e87ddc20")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -7726,7 +7718,7 @@
 		)
 		(uuid "8f2d716c-e4e7-4857-bf00-4a20485761bb")
 	)
-	(hierarchical_label "PA12"
+	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 124.46 74.93 0)
 		(effects
@@ -7979,7 +7971,7 @@
 		)
 		(uuid "c6c47180-85db-4f53-bf55-33b161a34a86")
 	)
-	(hierarchical_label "PA11"
+	(hierarchical_label "USB_DM"
 		(shape bidirectional)
 		(at 124.46 72.39 0)
 		(effects
@@ -10966,7 +10958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LHRS_Special:100PinMCU"
+		(property "Footprint" "Project:100PinMCU"
 			(at 71.12 171.45 0)
 			(hide yes)
 			(show_name no)

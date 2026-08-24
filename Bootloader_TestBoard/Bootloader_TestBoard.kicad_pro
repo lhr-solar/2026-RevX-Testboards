@@ -441,7 +441,7 @@
         "uuid": "50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83"
       }
     ],
-    "used_designators": "C11-39,D4-7,FB1-4,R5-18,J1-2,Reset1,kicad\\-embed://stm32g473cb.pdf1,SW1-2,Y1-2,S1,U2",
+    "used_designators": "C11-39,D4-8,FB1-4,#FLG1-3,R5-18,J1-10,Reset1,kicad\\-embed://stm32g473cb.pdf1,SW1-2,Y1-2,S1,U2,#PWR1-30,JP3-8,TP1-3",
     "variants": []
   },
   "sheets": [
