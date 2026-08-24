@@ -33675,7 +33675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C4"
+		(property "Reference" "C33"
 			(at 95.25 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33761,7 +33761,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "C4")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -33790,7 +33790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C6"
+		(property "Reference" "C35"
 			(at 213.614 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33874,7 +33874,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "C6")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -33904,7 +33904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418918ed-79a5-4844-a068-77984ff1998e")
-		(property "Reference" "JP1"
+		(property "Reference" "JP3"
 			(at 234.95 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33966,7 +33966,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -34001,7 +34001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C5"
+		(property "Reference" "C34"
 			(at 107.188 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34087,7 +34087,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "C5")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -34116,7 +34116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C3"
+		(property "Reference" "C32"
 			(at 84.328 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34202,7 +34202,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "C3")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -34237,7 +34237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 220.98 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34321,7 +34321,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -34351,7 +34351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 215.9 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34489,7 +34489,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -34701,7 +34701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 195.58 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34785,7 +34785,7 @@
 		(instances
 			(project "Bootloader_TestBoard"
 				(path "/50e7fe4f-0bd9-43c3-9b2f-ed7a525f4a83/7be88f65-0fb9-43aa-8523-28f2b8a03d0d"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
